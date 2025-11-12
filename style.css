@@ -45,6 +45,12 @@ h3{
     margin: 0;
 }
 
+h4{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-size: 12px;
+}
+
 p{
     font-family: "B612", sans-serif;
     font-weight: 400;
@@ -68,7 +74,7 @@ header{
     border-bottom: 1.5px solid black;
     padding: 66px 24px 13px 24px;
 }
-.header-wrapper, .section-head{
+.header-wrapper, .section-head, .expand-product{
 display: flex;
 justify-content: space-between;
 }
@@ -102,18 +108,29 @@ justify-content: space-between;
     gap: 1rem;
 }
 
+.product-container{
+    width: 225px;
+    margin: 2rem;
+}
 .product-img-container{
     height: 345px;
-    width: 225px;
     border: 1px solid black;
-    object-fit: cover;
     display: flex;
     justify-content: center;
     
 }
-.product{
+.product, .tech-img{
     height: 100%;
-    object-fit: inherit;
+    width: 100%;
+}
+.color-box{
+    width: 13px;
+    height: 13px;
+    background-color: #464646;
+    display: inline-block;
+}
+.tech-img-container{
+    margin: 2rem;
 }
 
 @media screen and (min-width:600px) {

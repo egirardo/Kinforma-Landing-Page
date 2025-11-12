@@ -11,6 +11,7 @@ require_once __DIR__ . '/header.php';
             <p class="button">EXPORE THE COLLECTION</p>
         </div>
     </section>
+
     <section class="scroll">
         <div class="section-head">
             <h3>DROP 01: ADAPTIVE FORMS</h3>
@@ -29,9 +30,24 @@ require_once __DIR__ . '/header.php';
                     <img class="plus" src="assets/plus.svg">
                 </div>
                 <div class="color-picker">
-
+                    <div class="color-box"></div>
+                    <div class="color-box"></div>
+                    <div class="color-box"></div>
                 </div>
             </div>
+    </section>
+
+    <section class="ai-design">
+        <h3>ADAPTIVE DESIGN, BUILT FOR YOUR NEEDS.</h3>
+        <p class="button">CUSTAMIZE YOUR GEAR</p>
+    </section>
+
+    <section class="tech">
+        <h3>EXPLORE THE LAYERS BEHIND THE INNOVATION.</h3>
+        <p>Our fibers are crafted with regnerative technolagy for a sustaniable future.</p>
+        <div class="tech-img-container">
+            <img class="tech-img" src="assets/layers.jpg">
+        </div>
     </section>
 </main>
 
