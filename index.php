@@ -39,12 +39,12 @@ require_once __DIR__ . '/header.php';
 
     <section class="ai-design">
         <h3>ADAPTIVE DESIGN, BUILT FOR YOUR NEEDS.</h3>
-        <p class="button">CUSTAMIZE YOUR GEAR</p>
+        <p class="button">CUSTOMIZE YOUR GEAR</p>
     </section>
 
     <section class="tech">
         <h3>EXPLORE THE LAYERS BEHIND THE INNOVATION.</h3>
-        <p>Our fibers are crafted with regnerative technolagy for a sustaniable future.</p>
+        <p>Our fibers are crafted with regenerative technolagy for a sustaniable future.</p>
         <div class="tech-img-container">
             <img class="tech-img" src="assets/layers.jpg">
         </div>
