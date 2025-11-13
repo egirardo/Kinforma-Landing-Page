@@ -6,43 +6,6 @@ body{
     padding: 1.5rem;
 }
 
-.ibm-plex-mono-regular {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ibm-plex-mono-medium {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.ibm-plex-mono-semibold {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.ibm-plex-mono-bold {
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.rubik-logo {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.b612-regular {
-  font-family: "B612", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 h3{
     font-family: "Rubik", sans-serif;
     font-weight: 700;
@@ -160,6 +123,223 @@ header{
     width: 345px;
     height: 490px;
 }
+
+/* Footer Styling */
+
+footer {
+  	width: 100%;
+  	height: 53.25rem;
+  	position: relative;
+  	background-color: #fff;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 0.625rem;
+  	color: #000;
+  	font-family: 'B612';
+}
+
+.kontakt {
+  	position: absolute;
+  	top: 8.813rem;
+  	left: 1.25rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+  	height: 0.75rem;
+}
+.support {
+  	position: absolute;
+  	top: 11.313rem;
+  	left: 1.25rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+  	height: 0.75rem;
+}
+.fretag {
+  	position: absolute;
+  	top: 13.813rem;
+  	left: 1.25rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+  	height: 0.75rem;
+}
+.flj-oss {
+  	position: absolute;
+  	top: 16.313rem;
+  	left: 1.25rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+  	height: 0.75rem;
+}
+.rttslig {
+  	position: absolute;
+  	top: 18.813rem;
+  	left: 1.25rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+  	height: 0.75rem;
+}
+.handla-i {
+  	position: absolute;
+  	top: 36.75rem;
+  	left: 1.438rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+}
+.sprk {
+  	position: absolute;
+  	top: 39rem;
+  	left: 1.438rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+}
+.nyhetsbrev {
+  	position: absolute;
+  	top: 27.438rem;
+  	left: 1.438rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+  	height: 0.75rem;
+}
+.e-postadress {
+  	position: absolute;
+  	top: 29.188rem;
+  	left: 1.438rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+  	height: 0.75rem;
+}
+.span {
+  	font-size: 0.75rem;
+}
+.sverige {
+  	position: absolute;
+  	top: 36.75rem;
+  	left: 5.313rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+  	height: 0.75rem;
+}
+.svenska {
+  	position: absolute;
+  	top: 39rem;
+  	left: 3.875rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 7.813rem;
+  	height: 0.75rem;
+}
+.upphovsrtt-2025-luxurywear-container {
+  	position: absolute;
+  	top: 48.781rem;
+  	left: 1.438rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 22.438rem;
+  	height: 2.25rem;
+}
+.upphovsrtt {
+  	white-space: pre-wrap;
+}
+.fretagsinformation {
+  	text-decoration: underline;
+}
+.ange-din-e-postadress {
+  	position: absolute;
+  	top: 32.188rem;
+  	left: 1.438rem;
+  	color: #4a4749;
+}
+.footer-stoneisland-item {
+  	position: absolute;
+  	top: 32.188rem;
+  	left: 17rem;
+  	background-color: #fff;
+  	border: 1px solid #000;
+  	box-sizing: border-box;
+  	width: 5.75rem;
+  	height: 1.438rem;
+}
+.fortstta {
+  	position: absolute;
+  	top: 32.563rem;
+  	left: 18.15rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 3.688rem;
+  	height: 0.75rem;
+}
+.div {
+  	position: absolute;
+  	top: 48.625rem;
+  	left: 6.313rem;
+  	font-size: 1.188rem;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	width: 1.438rem;
+  	height: 0.5rem;
+}
+.mageplus-icon {
+  	position: absolute;
+  	top: 8.688rem;
+  	left: 21.875rem;
+  	width: 1rem;
+  	height: 1rem;
+}
+.footer-stoneisland-mageplus-icon {
+  	position: absolute;
+  	top: 11.188rem;
+  	left: 21.875rem;
+  	width: 1rem;
+  	height: 1rem;
+}
+.mageplus-icon2 {
+  	position: absolute;
+  	top: 13.688rem;
+  	left: 21.875rem;
+  	width: 1rem;
+  	height: 1rem;
+}
+.mageplus-icon3 {
+  	position: absolute;
+  	top: 16.188rem;
+  	left: 21.875rem;
+  	width: 1rem;
+  	height: 1rem;
+}
+.mageplus-icon4 {
+  	position: absolute;
+  	top: 18.688rem;
+  	left: 21.875rem;
+  	width: 1rem;
+  	height: 1rem;
+}
+.mageplus-icon5 {
+  	position: absolute;
+  	top: 36.625rem;
+  	left: 22.063rem;
+  	width: 1rem;
+  	height: 1rem;
+}
+.mageplus-icon6 {
+  	position: absolute;
+  	top: 38.875rem;
+  	left: 22.063rem;
+  	width: 1rem;
+  	height: 1rem;
+}
+
+
+
 
 @media screen and (min-width:600px) {
     
