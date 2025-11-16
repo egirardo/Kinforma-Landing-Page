@@ -1,3 +1,7 @@
+<?php
+require __DIR__ . "/assets.php";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,7 +21,7 @@
 
 <body>
     <header>
-        <div class="header-wrapper">
+        <nav class="header-wrapper">
             <div class="logo-container">
                 <img class="logo" src="assets/logo.svg">
                 <h3 class="rubik-logo">Kinforma</h3>
@@ -25,7 +29,53 @@
             <div class="nav-container">
                 <img class="cart" src="assets/shopping cart.svg">
                 <img class="nav-button" src="assets/nav.svg">
+                <img class="hidden menu-x" src="assets/menu-x.svg">
             </div>
+        </nav>
+        <div class="hidden header-menu">
+            <div class="search-bar">
+                <input type="search" id="searchInput" placeholder="SEARCH">
+                <a class="search-icon"><img src="/assets/ei_search.svg"></a>
+            </div>
+            <div class="slogan">
+                <p class="discover">DISCOVER THE FUTURE OF ADAPTABLE DESIGN</p>
+            </div>
+            <div class="menu-section">
+                <?= $headerMenuLine ?>
+                <div class="menu-option">
+                    <a>COLLECTION</a>
+                    <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                </div>
+                <?= $headerMenuLine ?>
+                <div class="menu-option">
+                    <a>CUSTOMIZE</a>
+                    <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                </div>
+                <?= $headerMenuLine ?>
+                <div class="menu-option">
+                    <a>TECHNOLOGY</a>
+                    <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                </div>
+                <?= $headerMenuLine ?>
+                <div class="menu-option">
+                    <a>ABOUT KINFORMA</a>
+                    <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                </div>
+                <?= $headerMenuLine ?>
+                <div class="menu-option">
+                    <a>COMMUNITY</a>
+                    <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                </div>
+                <?= $headerMenuLine ?>
+            </div>
+            <div class="menu-footer">
+                <?= $headerFooterLine ?>
+                <div class="menu-footer-content">
+                    <a>CUSTOMER SUPPORT</a>
+                    <a>LOG IN</a>
+                </div>
+            </div>
+
         </div>
 
     </header>
