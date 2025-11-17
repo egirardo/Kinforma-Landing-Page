@@ -21,6 +21,7 @@ require_once __DIR__ . '/header.php';
             <img class="arrows" src="assets/arrow right.svg">
         </div>
         <div class="product-scroll">
+
             <div class="product-container">
                 <div class="product-img-container">
                     <img class="product" src="assets/product.jpg">
@@ -35,6 +36,52 @@ require_once __DIR__ . '/header.php';
                     <div class="color-box"></div>
                 </div>
             </div>
+
+            <div class="product-container">
+                <div class="product-img-container">
+                    <img class="product" src="assets/product.jpg">
+                </div>
+                <div class="expand-product">
+                    <h4 class="product-name">SHELL JACKET</h4>
+                    <img class="plus" src="assets/plus.svg">
+                </div>
+                <div class="color-picker">
+                    <div class="color-box"></div>
+                    <div class="color-box"></div>
+                    <div class="color-box"></div>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product-img-container">
+                    <img class="product" src="assets/product.jpg">
+                </div>
+                <div class="expand-product">
+                    <h4 class="product-name">SHELL JACKET</h4>
+                    <img class="plus" src="assets/plus.svg">
+                </div>
+                <div class="color-picker">
+                    <div class="color-box"></div>
+                    <div class="color-box"></div>
+                    <div class="color-box"></div>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product-img-container">
+                    <img class="product" src="assets/product.jpg">
+                </div>
+                <div class="expand-product">
+                    <h4 class="product-name">SHELL JACKET</h4>
+                    <img class="plus" src="assets/plus.svg">
+                </div>
+                <div class="color-picker">
+                    <div class="color-box"></div>
+                    <div class="color-box"></div>
+                    <div class="color-box"></div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section class="ai-design">
