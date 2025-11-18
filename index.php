@@ -3,6 +3,21 @@ require_once __DIR__ . '/header.php';
 ?>
 
 <main>
+
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup" id="popup">
+            <img class="close" id="closePopup" src="assets/menu-x.svg">
+            <h4>GET FIRST ACCESS TO NEW RELEASES</h4>
+            <p>Be the first to know whennew drops go live. Join our early-access list.</p>
+            <div class="email-container">
+                <form method="post" action="">
+                    <input id="email-input" type="email" placeholder="Enter your email adress">
+                    <button class="button" type="submit">SIGN UP</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <section class="hero">
         <div class="hero-container">
             <img class="hero-img" src="assets/hero.png">
@@ -31,9 +46,9 @@ require_once __DIR__ . '/header.php';
                     <img class="plus" src="assets/plus.svg">
                 </div>
                 <div class="color-picker">
-                    <div class="color-box"></div>
-                    <div class="color-box"></div>
-                    <div class="color-box"></div>
+                    <div class="color-box grey"></div>
+                    <div class="color-box beige "></div>
+                    <div class="color-box brown"></div>
                 </div>
                 <div class="description">
                     <p class="prod-description">Lightweight, weatherproof shell engineered for freedom of movement.</p>
@@ -115,6 +130,8 @@ require_once __DIR__ . '/header.php';
         </div>
     </section>
 </main>
+
+<script src="script.js"></script>
 
 <?php
 require_once __DIR__ . '/footer.php';
