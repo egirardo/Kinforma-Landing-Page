@@ -35,20 +35,8 @@ require_once __DIR__ . '/header.php';
                     <div class="color-box"></div>
                     <div class="color-box"></div>
                 </div>
-            </div>
-
-            <div class="product-container">
-                <div class="product-img-container">
-                    <img class="product" src="assets/product.jpg">
-                </div>
-                <div class="expand-product">
-                    <h4 class="product-name">SHELL JACKET</h4>
-                    <img class="plus" src="assets/plus.svg">
-                </div>
-                <div class="color-picker">
-                    <div class="color-box"></div>
-                    <div class="color-box"></div>
-                    <div class="color-box"></div>
+                <div class="description">
+                    <p class="prod-description">Lightweight, weatherproof shell engineered for freedom of movement.</p>
                 </div>
             </div>
 
@@ -57,13 +45,16 @@ require_once __DIR__ . '/header.php';
                     <img class="product" src="assets/product.jpg">
                 </div>
                 <div class="expand-product">
-                    <h4 class="product-name">SHELL JACKET</h4>
+                    <h4 class="product-name">OPTICAL FRAME</h4>
                     <img class="plus" src="assets/plus.svg">
                 </div>
                 <div class="color-picker">
                     <div class="color-box"></div>
                     <div class="color-box"></div>
                     <div class="color-box"></div>
+                </div>
+                <div class="description">
+                    <p class="prod-description">Lightweight titanium eyewear with UV protection.</p>
                 </div>
             </div>
 
@@ -72,22 +63,40 @@ require_once __DIR__ . '/header.php';
                     <img class="product" src="assets/product.jpg">
                 </div>
                 <div class="expand-product">
-                    <h4 class="product-name">SHELL JACKET</h4>
+                    <h4 class="product-name">VOLUME BAG</h4>
                     <img class="plus" src="assets/plus.svg">
                 </div>
                 <div class="color-picker">
                     <div class="color-box"></div>
                     <div class="color-box"></div>
                     <div class="color-box"></div>
+                </div>
+                <div class="description">
+                    <p class="prod-description">Constructed from recycled nylon with water resistant coating.</p>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <div class="product-img-container">
+                    <img class="product" src="assets/product.jpg">
+                </div>
+                <div class="expand-product">
+                    <h4 class="product-name">LOOP UNIT</h4>
+                    <img class="plus" src="assets/plus.svg">
+                </div>
+                <div class="color-picker">
+                    <div class="color-box"></div>
+                    <div class="color-box"></div>
+                    <div class="color-box"></div>
+                </div>
+                <div class="description">
+                    <p class="prod-description">Crafted in stainless steel.</p>
                 </div>
             </div>
         </div>
+        <button class="button">VIEW LOOKBOOK</button>
     </section>
 
-    <section class="ai-design">
-        <h4>ADAPTIVE DESIGN, BUILT FOR YOUR NEEDS.</h4>
-        <p class="button">CUSTOMIZE YOUR GEAR</p>
-    </section>
 
     <section class="tech">
         <h4>EXPLORE THE LAYERS BEHIND THE INNOVATION.</h4>
