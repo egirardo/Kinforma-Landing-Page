@@ -29,7 +29,7 @@ require_once __DIR__ . '/header.php';
 
     <section class="scroll">
         <div class="section-head">
-            <h3>DROP 01: ADAPTIVE FORMS</h3>
+            <h4>DROP 01: ADAPTIVE FORMS</h4>
             <div class="arrow-control">
             </div>
             <img class="arrows" src="assets/arrow left.svg">
@@ -37,7 +37,7 @@ require_once __DIR__ . '/header.php';
         </div>
         <div class="product-scroll">
 
-            <div class="product-container">
+            <div class="product-container" data-product="1">
                 <div class="product-img-container">
                     <img class="product" src="assets/product.jpg">
                 </div>
@@ -46,16 +46,16 @@ require_once __DIR__ . '/header.php';
                     <img class="plus" src="assets/plus.svg">
                 </div>
                 <div class="color-picker">
-                    <div class="color-box grey"></div>
-                    <div class="color-box beige "></div>
-                    <div class="color-box brown"></div>
+                    <div class="color-box stone" id="jacket-stone" data-img="products/1/product1-stone.avif"></div>
+                    <div class="color-box sand" id="jacket-sand" data-img="products/1/product1-sand.avif"></div>
+                    <div class="color-box moss" id="jacket-moss" data-img="products/1/product1-moss.avif"></div>
                 </div>
                 <div class="description">
                     <p class="prod-description">Lightweight, weatherproof shell engineered for freedom of movement.</p>
                 </div>
             </div>
 
-            <div class="product-container">
+            <div class="product-container" data-product="2">
                 <div class="product-img-container">
                     <img class="product" src="assets/product.jpg">
                 </div>
@@ -64,16 +64,16 @@ require_once __DIR__ . '/header.php';
                     <img class="plus" src="assets/plus.svg">
                 </div>
                 <div class="color-picker">
-                    <div class="color-box"></div>
-                    <div class="color-box"></div>
-                    <div class="color-box"></div>
+                    <div class="color-box stone" id="glasses-stone" data-img="product2-stone"></div>
+                    <div class="color-box sand" id="glasses-sand" data-img="product2-sand"></div>
+                    <div class="color-box moss" id="glasses-moss" data-img="product2-moss"></div>
                 </div>
                 <div class="description">
                     <p class="prod-description">Lightweight titanium eyewear with UV protection.</p>
                 </div>
             </div>
 
-            <div class="product-container">
+            <div class="product-container" data-product="3">
                 <div class="product-img-container">
                     <img class="product" src="assets/product.jpg">
                 </div>
@@ -82,16 +82,16 @@ require_once __DIR__ . '/header.php';
                     <img class="plus" src="assets/plus.svg">
                 </div>
                 <div class="color-picker">
-                    <div class="color-box"></div>
-                    <div class="color-box"></div>
-                    <div class="color-box"></div>
+                    <div class="color-box stone" id="glasses-stone" data-img="product3-stone"></div>
+                    <div class="color-box sand" id="glasses-sand" data-img="product3-sand"></div>
+                    <div class="color-box moss" id="glasses-moss" data-img="product3-moss"></div>
                 </div>
                 <div class="description">
                     <p class="prod-description">Constructed from recycled nylon with water resistant coating.</p>
                 </div>
             </div>
 
-            <div class="product-container">
+            <div class="product-container" data-product="4">
                 <div class="product-img-container">
                     <img class="product" src="assets/product.jpg">
                 </div>
@@ -100,9 +100,9 @@ require_once __DIR__ . '/header.php';
                     <img class="plus" src="assets/plus.svg">
                 </div>
                 <div class="color-picker">
-                    <div class="color-box"></div>
-                    <div class="color-box"></div>
-                    <div class="color-box"></div>
+                    <div class="color-box stone" id="ring-stone" data-img="product4-stone"></div>
+                    <div class="color-box sand" id="ring-sand" data-img="product4-sand"></div>
+                    <div class="color-box moss" id="ring-moss" data-img="product4-moss"></div>
                 </div>
                 <div class="description">
                     <p class="prod-description">Crafted in stainless steel.</p>
@@ -115,16 +115,15 @@ require_once __DIR__ . '/header.php';
 
     <section class="tech">
         <h4>EXPLORE THE LAYERS BEHIND THE INNOVATION.</h4>
-        <p>Our fibers are crafted with regenerative technolagy for a sustaniable future.</p>
         <div class="tech-img-container">
             <img class="tech-img" src="assets/layers.jpg">
         </div>
-        <p class="button">LEARN ABOUT OUR SUSTAINABILITY</p>
+        <p class="button">LEARN MORE</p>
     </section>
 
     <section class="function">
-        <h4>FORM MEETS FUNCTION</h4>
-        <p>Every line, seam and fiber is designed to last and evolve with you.</p>
+        <h4>DESIGNED TO MOVE, BUILT TO LAST</h4>
+        <p>Each piece is crafted from regenerative materials engineered to endure motion, wear and time.</p>
         <div class="motion-img-container">
             <img class="motion-img" src="assets/motion.jpg">
         </div>

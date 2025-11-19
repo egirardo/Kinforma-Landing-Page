@@ -15,6 +15,9 @@ require __DIR__ . "/assets.php";
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fonts.css">
 </head>
@@ -24,7 +27,7 @@ require __DIR__ . "/assets.php";
         <nav class="header-wrapper">
             <div class="logo-container">
                 <img class="logo" src="assets/logo.svg">
-                <h3 class="rubik-logo">Kinforma</h3>
+                <h3 class="logo-typo">kinforma</h3>
             </div>
             <div class="nav-container">
                 <img class="cart" src="assets/shopping cart.svg">
