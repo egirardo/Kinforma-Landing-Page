@@ -43,7 +43,7 @@ require_once __DIR__ . '/header.php';
                 </div>
                 <div class="expand-product">
                     <h4 class="product-name">SHELL JACKET</h4>
-                    <img class="plus" src="assets/plus.svg">
+                    <button class="toggle-btn">+</button>
                 </div>
                 <div class="color-picker">
                     <div class="color-box stone" id="jacket-stone" data-img="products/1/product1-stone.avif"></div>
@@ -61,7 +61,7 @@ require_once __DIR__ . '/header.php';
                 </div>
                 <div class="expand-product">
                     <h4 class="product-name">OPTICAL FRAME</h4>
-                    <img class="plus" src="assets/plus.svg">
+                    <button class="toggle-btn">+</button>
                 </div>
                 <div class="color-picker">
                     <div class="color-box stone" id="glasses-stone" data-img="product2-stone"></div>
@@ -79,7 +79,7 @@ require_once __DIR__ . '/header.php';
                 </div>
                 <div class="expand-product">
                     <h4 class="product-name">VOLUME BAG</h4>
-                    <img class="plus" src="assets/plus.svg">
+                    <button class="toggle-btn">+</button>
                 </div>
                 <div class="color-picker">
                     <div class="color-box stone" id="glasses-stone" data-img="product3-stone"></div>
@@ -97,7 +97,7 @@ require_once __DIR__ . '/header.php';
                 </div>
                 <div class="expand-product">
                     <h4 class="product-name">LOOP UNIT</h4>
-                    <img class="plus" src="assets/plus.svg">
+                    <button class="toggle-btn">+</button>
                 </div>
                 <div class="color-picker">
                     <div class="color-box stone" id="ring-stone" data-img="product4-stone"></div>
