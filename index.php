@@ -118,6 +118,23 @@ require_once __DIR__ . '/header.php';
         <div class="tech-img-container">
             <img class="tech-img" src="assets/layers.jpg">
         </div>
+        <div class="tech-info-wrapper">
+            <div class="tech-info-container">
+                <img class="tech-icon" src="assets/square.svg">
+                <h5 class="tech-info-header">AeroShell™</h5>
+                <p>Hydro-resistant layer</p>
+            </div>
+            <div class="tech-info-container">
+                <img class="tech-icon" src="assets/triangle.svg">
+                <h5 class="tech-info-header">BioMem™</h5>
+                <p>Thermo-adaptive membrane</p>
+            </div>
+            <div class="tech-info-container">
+                <img class="tech-icon" src="assets/circle.svg">
+                <h5 class="tech-info-header">ReForm™</h5>
+                <p>Eco-regenerative knit</p>
+            </div>
+        </div>
         <p class="button">LEARN MORE</p>
     </section>
 
