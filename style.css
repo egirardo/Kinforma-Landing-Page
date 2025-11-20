@@ -507,6 +507,7 @@ input {
 	flex-wrap: wrap;
 	align-items: left;
 	justify-content: left;
+	width: 85vw;
 }
 
 .footer-footer p{
