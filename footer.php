@@ -28,8 +28,10 @@
             <h3 class="newsletter-title">NEWSLETTER</h3>
             <form action="/index.php" method="post" enctype="text/plain">
                 <label for="email">EMAIL ADDRESS *</label>
-                <input type="email" name="email" id="email" placeholder="Enter your email address">
-                <button class="button" type="submit">SIGN UP</button>
+                <div class="input-button-pair">
+                    <input type="email" name="email" id="email" placeholder="Enter your email address">
+                    <button class="button" type="submit">SIGN UP</button>
+                </div>
             </form>
         </div>
     </div>
