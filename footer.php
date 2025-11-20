@@ -30,18 +30,24 @@
                 <label for="email">EMAIL ADDRESS *</label>
                 <div class="input-button-pair">
                     <input type="email" name="email" id="email" placeholder="Enter your email address">
-                    <button class="button" type="submit">SIGN UP</button>
+                    <button class="button footer" type="submit">CONTINUE</button>
                 </div>
             </form>
         </div>
-    </div>
-    <b class="handla-i">HANDLA I:</b>
-    <b class="sprk">SPRÅK</b>
-    <div class="sverige">SVERIGE</div>
-    <div class="svenska">SVENSKA</div>
-    <div class="upphovsrtt-2025-luxurywear-container">
-        <span class="upphovsrtt">UPPHOVSRÄTT &COPY;2025 LUXURYWEAR COMPANY SPA <br>ALLA RÄTTIGHETER FÖRBEHÅLLNA. - <br></span>
-        <b class="fretagsinformation">FÖRETAGSINFORMATION</b>
+        <div class="language-container">
+            <div class="selector">
+                <h3>SHOP IN:</h3>
+                <p>SWEDEN</p>
+            </div>
+            <div class="selector">
+                <h3>LANGUAGE:</h3>
+                <p>ENGLISH</p>
+            </div>
+        </div>
+        <div class="footer-footer">
+            <p>© 2025 Kinforma. All rights reserved.</p>
+            <p>Kinforma AB | Regenerative Design Studio | Gothenburg</p>
+        </div>
     </div>
 
 
