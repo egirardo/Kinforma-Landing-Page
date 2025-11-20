@@ -185,7 +185,7 @@ header {
 	border: 1px solid black;
 }
 
-input::placeholder {
+input#search::placeholder {
 	font-family: "IBM Plex Mono";
 	padding-left: 1rem;
 }
@@ -466,11 +466,18 @@ form {
 	gap: .95rem;
 }
 
-input {
+input#email {
 	background: none;
 	border: none;
 	border-bottom: 1px solid black;
 	width: 14.875rem;
+	text-align: left;
+}
+
+input#email::placeholder {
+	margin: 0;
+	text-align: left;
+	font-family: "IBM Plex Mono";
 }
 
 .button.footer {
