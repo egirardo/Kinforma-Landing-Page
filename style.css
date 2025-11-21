@@ -128,7 +128,7 @@ p {
 }
 header {
     width: 100vw;
-    height: 14vh;
+    height: 6.25rem;
     border-bottom: 1.5px solid black;
     padding: 37px 1.5rem 11px 1.5rem;
 	background-color: white;
@@ -163,16 +163,15 @@ header {
 /* Hidden Menu */
 
 .header-menu {
-	height: 86vh;
+	height: 88.175vh;
 	width: 100vw;
 	background-color: var(--background);
-	position: relative;
+	position: absolute;
 	justify-self: center;
-	top: 0.7rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	z-index: 9999;
+	top: 6.25rem;
 }
 
 body.menu-open {
