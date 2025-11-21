@@ -31,11 +31,11 @@ require __DIR__ . "/assets.php";
             </div>
             <div class="nav-container">
                 <img class="cart" src="assets/shopping cart.svg">
-                <img class="nav-button" src="assets/nav.svg">
-                <img class="hidden menu-x" src="assets/menu-x.svg">
+                <img class="nav-button" id="open-menu" src="assets/nav.svg">
+                <img class="hidden menu-x" id="hidden" src="assets/menu-x.svg">
             </div>
         </nav>
-        <div class="hidden header-menu">
+        <div class="hidden header-menu" id="hidden">
             <div class="search-bar">
                 <input type="search" id="searchInput" placeholder="SEARCH">
                 <a class="search-icon"><img src="/assets/ei_search.svg"></a>

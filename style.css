@@ -130,7 +130,7 @@ header {
     height: 14vh;
     border-bottom: 1.5px solid black;
     padding: 37px 1.5rem 11px 1.5rem;
-	background-color: white;
+	background-color: var(--background);
 }
 
 .header-wrapper, .section-head, .expand-product {
@@ -146,6 +146,12 @@ header {
 }
 .nav-button {
     width: 26px;
+	margin-top: 5px;
+}
+
+.menu-x {
+	width: 26px;
+	padding: 4px;
 	margin-top: 5px;
 }
 
@@ -245,7 +251,7 @@ input#search::placeholder {
 	justify-content: space-between;
 }
 
-.hidden {
+#hidden {
 	display: none;
 }
 

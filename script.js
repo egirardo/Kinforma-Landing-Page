@@ -57,4 +57,28 @@ products.forEach(product => {
     });
 });
 
+// Hidden Header Menu
+
+const headerMenu = document.getElementById("hidden");
+const menuButton = document.getElementById("open-menu");
+
+menuButton.addEventListener("click", function(event){
+    console.log(event.target)
+    menuButton.style.display = "none";
+    headerMenu.style.display = "flex";
+    document.querySelector(".header-menu").style.display = "flex";
+})
+
+const xButton = document.querySelector(".menu-x");
+
+xButton.addEventListener("click", function(event){
+    console.log(event.target);
+    menuButton.style.display = "flex";
+    xButton.style.display = "none";
+    document.querySelector(".header-menu").style.display = "none";
+})
+
+
+
+
 
