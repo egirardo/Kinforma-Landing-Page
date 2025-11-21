@@ -134,6 +134,7 @@ header {
 	background-color: white;
 	position:sticky;
 	top: 0;
+	z-index: 9999;
 }
 
 .header-wrapper, .section-head, .expand-product {
