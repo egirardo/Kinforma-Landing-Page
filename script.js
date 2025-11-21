@@ -21,6 +21,43 @@ if (!sessionStorage.getItem("popupShown")) {
 }; //Only shows the popup once per session
 
 
+
+// Hidden Header Menu
+
+const headerMenu = document.getElementById("hidden");
+const menuButton = document.getElementById("open-menu");
+const colorBoxes = document.querySelectorAll(".color-box")
+
+menuButton.addEventListener("click", function(event){
+    console.log(event.target)
+    menuButton.style.display = "none";
+    headerMenu.style.display = "flex";
+    document.querySelector(".header-menu").style.display = "flex";
+    document.body.classList.add('menu-open');
+
+    colorBoxes.forEach(hideColorBox);
+    function hideColorBox(colorBox) {
+        colorBox.style.zIndex = -3;
+    }
+});
+
+const xButton = document.querySelector(".menu-x");
+
+xButton.addEventListener("click", function(event){
+    console.log(event.target);
+    menuButton.style.display = "flex";
+    xButton.style.display = "none";
+    document.querySelector(".header-menu").style.display = "none";
+    document.body.classList.remove('menu-open');
+
+        colorBoxes.forEach(showColorBox);
+        function showColorBox(colorBox) {
+        colorBox.style.zIndex = 0;
+    }
+});
+
+
+
 //Product color selector & description expander
 const products = document.querySelectorAll('.product-container');
 
@@ -57,26 +94,7 @@ products.forEach(product => {
     });
 });
 
-// Hidden Header Menu
 
-const headerMenu = document.getElementById("hidden");
-const menuButton = document.getElementById("open-menu");
-
-menuButton.addEventListener("click", function(event){
-    console.log(event.target)
-    menuButton.style.display = "none";
-    headerMenu.style.display = "flex";
-    document.querySelector(".header-menu").style.display = "flex";
-})
-
-const xButton = document.querySelector(".menu-x");
-
-xButton.addEventListener("click", function(event){
-    console.log(event.target);
-    menuButton.style.display = "flex";
-    xButton.style.display = "none";
-    document.querySelector(".header-menu").style.display = "none";
-})
 
 
 
