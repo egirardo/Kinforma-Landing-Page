@@ -130,7 +130,9 @@ header {
     height: 14vh;
     border-bottom: 1.5px solid black;
     padding: 37px 1.5rem 11px 1.5rem;
-	background-color: var(--background);
+	background-color: white;
+	position:sticky;
+	top: 0;
 }
 
 .header-wrapper, .section-head, .expand-product {
@@ -158,12 +160,12 @@ header {
 /* Hidden Menu */
 
 .header-menu {
-	height: 82.5vh;
+	height: 86vh;
 	width: 100vw;
 	background-color: var(--background);
 	position: relative;
 	justify-self: center;
-	top: 1rem;
+	top: 1.75rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -184,16 +186,19 @@ header {
 	align-self: center;
 }
 
-#searchInput {
-	background: none;
+input#searchInput {
+	background: white;
 	width: 85vw;
 	height: 3rem;
 	border: 1px solid black;
 }
 
-input#search::placeholder {
-	font-family: "IBM Plex Mono";
+input#searchInput::placeholder {
+	font-family: var(--ibm-plex);
 	padding-left: 1rem;
+	font-size: 0.75rem;
+	font-style: normal;
+	font-weight: 700;
 }
 .slogan {
 	width: 85vw;
@@ -321,6 +326,7 @@ input#search::placeholder {
     display: inline-block;
 	cursor: pointer;
 	position: relative;
+	z-index: -1;
 }
 .stone{
 	background-color: var(--stone);
@@ -426,7 +432,7 @@ footer {
   	font-size: 0.625rem;
   	color: #000;
   	font-family: 'B612';
-	
+	z-index: -1;
 }
 .footer-container {
 	display: flex; 
