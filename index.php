@@ -23,7 +23,7 @@ require_once __DIR__ . '/header.php';
             <img class="hero-img" src="assets/hero.png">
         </div>
         <div class="text-container">
-            <p class="button">EXPORE THE COLLECTION</p>
+            <p class="button">EXPLORE THE COLLECTION</p>
         </div>
     </section>
 
@@ -144,6 +144,7 @@ require_once __DIR__ . '/header.php';
         <div class="motion-img-container">
             <img class="motion-img" src="assets/motion.jpg">
         </div>
+        <button class="button sustainability">READ OUR SUSTAINABILITY REPORT</button>
     </section>
 </main>
 

@@ -44,6 +44,9 @@
                 <p>ENGLISH</p>
             </div>
         </div>
+        <div class="footer-logo">
+            <?= $footerK; ?>
+        </div>
         <div class="footer-footer">
             <p>© 2025 Kinforma. All rights reserved.</p>
             <p>Kinforma AB | Regenerative Design Studio | Gothenburg</p>

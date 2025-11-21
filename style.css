@@ -14,6 +14,7 @@
 }
 
 body {
+	background: url(/assets/background-texture.png) no-repeat center 39rem;
 	background-color: var(--background);
 	margin: 0;
 	
@@ -21,6 +22,7 @@ body {
 
 main{
 	padding: 1.5rem;
+	border-bottom: 1px solid black;
 }
 
 h3 {
@@ -268,6 +270,7 @@ input#searchInput::placeholder {
     justify-content: center;
     margin: 0.5rem;
 	margin-bottom: 1rem;
+	justify-self: center;
 }
 
 .button{
@@ -278,6 +281,7 @@ input#searchInput::placeholder {
     display: inline-block;
     border: 1px solid black;
     padding: 8px 6px;
+	background: white;
 }
 
 /* Products */
@@ -315,6 +319,10 @@ input#searchInput::placeholder {
 	height: 100%;
     width: 100%;
 	object-fit: cover;
+}
+
+.motion-img {
+	border: 1px solid black;
 }
 
 
@@ -420,13 +428,24 @@ input#searchInput::placeholder {
 	margin-bottom: 3rem;
 }
 
+/* Function */
+
+.function p {
+	margin-bottom: 1.16375rem;
+}
+
+.sustainability {
+	margin-top: 1rem;
+	margin-bottom: 4.31rem;
+}
+
 /* Footer Styling */
 
 footer {
   	width: 100%;
 	padding: 1.5rem;
   	position: relative;
-  	background-color: var(--background);
+  	background-color: white;
   	overflow: hidden;
   	text-align: left;
   	font-size: 0.625rem;
@@ -439,6 +458,7 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	gap: 2rem;
+	margin-top: 1.5rem;
 }
 
 /* Footer Menu */
@@ -455,8 +475,13 @@ footer {
 }
 
 .footer-menu-item h5 {
-	font-size: .625rem;
+	font-size: 0.75rem;
+	font-style: normal;
+	font-weight: 700;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
+
 
 /* Newsletter */
 
@@ -520,6 +545,14 @@ input#email::placeholder {
 	font-size: .75rem;
 }
 
+.footer-logo {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: left;
+	width: 85vw;
+}
+
 .footer-footer {
 	display: flex;
 	flex-direction: column;
@@ -534,68 +567,10 @@ input#email::placeholder {
 	margin: 0;
 	justify-self: left;
 }
-.handla-i {
-  	position: absolute;
-  	top: 36.75rem;
-  	left: 1.438rem;
-  	text-transform: uppercase;
-  	display: inline-block;
-  	width: 7.813rem;
-}
-.sprk {
-  	position: absolute;
-  	top: 39rem;
-  	left: 1.438rem;
-  	text-transform: uppercase;
-  	display: inline-block;
-  	width: 7.813rem;
-}
 
-.sverige {
-  	position: absolute;
-  	top: 36.75rem;
-  	left: 5.313rem;
-  	text-transform: uppercase;
-  	display: inline-block;
-  	width: 7.813rem;
-  	height: 0.75rem;
+.footer-container:nth-child(5) {
+  gap: .5rem;
 }
-.svenska {
-  	position: absolute;
-  	top: 39rem;
-  	left: 3.875rem;
-  	text-transform: uppercase;
-  	display: inline-block;
-  	width: 7.813rem;
-  	height: 0.75rem;
-}
-.upphovsrtt-2025-luxurywear-container {
-  	position: absolute;
-  	top: 48.781rem;
-  	left: 1.438rem;
-  	text-transform: uppercase;
-  	display: inline-block;
-  	width: 22.438rem;
-  	height: 2.25rem;
-}
-.upphovsrtt {
-  	white-space: pre-wrap;
-}
-.fretagsinformation {
-  	text-decoration: underline;
-}
-
-.div {
-  	position: absolute;
-  	top: 48.625rem;
-  	left: 6.313rem;
-  	font-size: 1.188rem;
-  	text-transform: uppercase;
-  	display: inline-block;
-  	width: 1.438rem;
-  	height: 0.5rem;
-}
-
 
 
 
