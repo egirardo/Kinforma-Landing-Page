@@ -9,8 +9,8 @@
 	--ibm-plex-sans: "IBM Plex Sans", sans-serif;
 }
 
-@media screen and (min-width: 393px) {
-	
+@media screen and (min-width: 1024px){
+
 * {
     box-sizing: border-box;
 }
@@ -585,8 +585,4 @@ input#email::placeholder {
   gap: .5rem;
 }
 
-
-
-
-    
 }
