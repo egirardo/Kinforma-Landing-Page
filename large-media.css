@@ -404,10 +404,27 @@ main{
 	display: flex;
 	flex-direction: row-reverse;
 }
+
+.tech h4 {
+    position: absolute;
+    left: 8.74rem;
+    top: 101.4rem;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    width: 19.4rem;
+}
+
 .tech-img-container{
-    width: 30rem;
+    width: 37rem;
+    height: 37.125rem;
 	aspect-ratio: 1;
 	flex-shrink: 0;
+    border: 1px solid black;
+}
+#tech-vid {
+    object-fit: fill;
 }
 .tech-info-wrapper{
 	width: 45%;
@@ -415,9 +432,17 @@ main{
 	flex-direction: column;
 	justify-content: center;
 	gap: 1rem;
+    padding-left: 3rem;
 }
 h5{
 	font-size: 1rem;
+}
+
+.tech .button {
+    position: absolute;
+    left: 8.81rem;
+    top: 123rem;
+
 }
 
 /* Function */
