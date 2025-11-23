@@ -35,9 +35,9 @@ require_once __DIR__ . '/header.php';
         <div class="section-head">
             <h4>DROP 01: ADAPTIVE FORMS</h4>
             <div class="arrow-control">
+                <img class="arrows" src="assets/arrow left.svg">
+                <img class="arrows" src="assets/arrow right.svg">
             </div>
-            <img class="arrows" src="assets/arrow left.svg">
-            <img class="arrows" src="assets/arrow right.svg">
         </div>
         <div class="product-scroll">
 
