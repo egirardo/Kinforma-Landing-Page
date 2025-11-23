@@ -19,6 +19,7 @@ require __DIR__ . "/assets.php";
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="large-media.css">
     <link rel="stylesheet" href="fonts.css">
 </head>
 
@@ -35,41 +36,46 @@ require __DIR__ . "/assets.php";
                 <img class="hidden menu-x" id="hidden" src="assets/menu-x.svg">
             </div>
         </nav>
-        <div class="hidden header-menu" id="hidden">
+        <div class="header-menu" id="hidden">
             <div class="search-bar">
                 <input type="search" id="searchInput" placeholder="SEARCH">
                 <a class="search-icon"><img src="/assets/ei_search.svg"></a>
             </div>
-            <div class="slogan">
-                <p class="discover">DISCOVER THE FUTURE OF ADAPTABLE DESIGN</p>
-            </div>
-            <div class="menu-section">
-                <?= $headerMenuLine ?>
-                <div class="menu-option">
-                    <a>COLLECTION</a>
-                    <img class="menu-arrow" src="/assets/menu-arrow.svg">
+            <div class="slogan-menu-container">
+                <div class="slogan">
+                    <p class="discover">DISCOVER THE FUTURE OF ADAPTABLE DESIGN</p>
                 </div>
-                <?= $headerMenuLine ?>
-                <div class="menu-option">
-                    <a>CUSTOMIZE</a>
-                    <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                <div class="menu-section">
+                    <?= $headerMenuLine ?>
+                    <div class="menu-option">
+                        <a>COLLECTION</a>
+                        <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                    </div>
+                    <?= $headerMenuLine ?>
+                    <div class="menu-option">
+                        <a>CUSTOMIZE</a>
+                        <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                    </div>
+                    <?= $headerMenuLine ?>
+                    <div class="menu-option">
+                        <a>TECHNOLOGY</a>
+                        <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                    </div>
+                    <?= $headerMenuLine ?>
+                    <div class="menu-option">
+                        <a>ABOUT KINFORMA</a>
+                        <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                    </div>
+                    <?= $headerMenuLine ?>
+                    <div class="menu-option">
+                        <a>COMMUNITY</a>
+                        <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                    </div>
+                    <?= $headerMenuLine ?>
                 </div>
-                <?= $headerMenuLine ?>
-                <div class="menu-option">
-                    <a>TECHNOLOGY</a>
-                    <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                <div class="menu-img-container">
+                    <img class="menu-img" src="/assets/hero.jpg">
                 </div>
-                <?= $headerMenuLine ?>
-                <div class="menu-option">
-                    <a>ABOUT KINFORMA</a>
-                    <img class="menu-arrow" src="/assets/menu-arrow.svg">
-                </div>
-                <?= $headerMenuLine ?>
-                <div class="menu-option">
-                    <a>COMMUNITY</a>
-                    <img class="menu-arrow" src="/assets/menu-arrow.svg">
-                </div>
-                <?= $headerMenuLine ?>
             </div>
             <div class="menu-footer">
                 <?= $headerFooterLine ?>
