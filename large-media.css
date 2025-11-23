@@ -16,7 +16,7 @@
 }
 
 body {
-	background: url(/assets/background-texture.png) no-repeat center 39rem;
+	background: none;
 	background-color: var(--background);
 	margin: 0;
 }
@@ -302,11 +302,18 @@ main{
 /* Products */
 
 .section-head{
-    margin: 80px 1rem 30px 1rem;
+    margin: 80px 1rem 1rem 0rem;
 }
 
-.arrow-controls{
-	width: 1.5rem;
+.section-head h4 {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.arrow-control{
+	display: none;
 }
 
 .product-scroll{
