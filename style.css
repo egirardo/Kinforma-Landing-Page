@@ -392,6 +392,12 @@ input#searchInput::placeholder {
 .moss{
 	background-color: var(--moss);
 }
+.silver{
+	background-color: silver;
+}
+.guld{
+	background-color: rgb(175, 149, 1);
+}
 
 .color-box.active::after {
 	content: "";

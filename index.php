@@ -43,7 +43,7 @@ require_once __DIR__ . '/header.php';
 
             <div class="product-container" data-product="1">
                 <div class="product-img-container">
-                    <img class="product" src="products/1/Jacka_Beige/Jacka_Beige_Bak.png">
+                    <img class="product" src="products/lifestyle/Life_Style_Bild.png">
                 </div>
                 <div class="expand-product">
                     <h4 class="product-name">SHELL JACKET</h4>
@@ -61,7 +61,7 @@ require_once __DIR__ . '/header.php';
 
             <div class="product-container" data-product="2">
                 <div class="product-img-container">
-                    <img class="product" src="assets/product.jpg">
+                    <img class="product" src="products/lifestyle/Life_Style_Bild_04.png">
                 </div>
                 <div class="expand-product">
                     <h4 class="product-name">OPTICAL FRAME</h4>
@@ -78,7 +78,7 @@ require_once __DIR__ . '/header.php';
 
             <div class="product-container" data-product="3">
                 <div class="product-img-container">
-                    <img class="product" src="assets/product.jpg">
+                    <img class="product" src="products/lifestyle/Life_Style_Bild_02.jpg">
                 </div>
                 <div class="expand-product">
                     <h4 class="product-name">VOLUME BAG</h4>
@@ -95,16 +95,15 @@ require_once __DIR__ . '/header.php';
 
             <div class="product-container" data-product="4">
                 <div class="product-img-container">
-                    <img class="product" src="products/4/Ring_Guld_Silver_2.png">
+                    <img class="product" src="products/4/Ring_med_case_2.png">
                 </div>
                 <div class="expand-product">
                     <h4 class="product-name">LOOP UNIT</h4>
                     <button class="toggle-btn">+</button>
                 </div>
                 <div class="color-picker">
-                    <div class="color-box stone" id="ring-stone" data-img="product4-stone"></div>
-                    <div class="color-box sand" id="ring-sand" data-img="product4-sand"></div>
-                    <div class="color-box moss" id="ring-moss" data-img="product4-moss"></div>
+                    <div class="color-box silver" id="ring-silver" data-img="products/4/Ring_Guld_Silver_2.png"></div>
+                    <div class="color-box guld" id="ring-guld" data-img="products/4/Ring_Silver_Guld_1.png"></div>
                 </div>
                 <div class="description">
                     <p class="prod-description">Crafted in stainless steel.</p>
@@ -149,7 +148,7 @@ require_once __DIR__ . '/header.php';
         <h4>DESIGNED TO MOVE, BUILT TO LAST</h4>
         <p>Each piece is crafted from regenerative materials engineered to endure motion, wear and time.</p>
         <div class="motion-img-container">
-            <img class="motion-img" src="assets/motion.jpg">
+            <img class="motion-img" src="products/lifestyle/Life_Style_Bild_03.png">
         </div>
         <button class="button sustainability">READ OUR SUSTAINABILITY REPORT</button>
     </section>
