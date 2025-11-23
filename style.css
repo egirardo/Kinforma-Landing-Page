@@ -490,7 +490,7 @@ input#searchInput::placeholder {
 	margin: 0;
 }
 
-.tech-info-container:last-child{
+.tech-info-container:nth-child(4){
 	margin-bottom: 3rem;
 }
 
@@ -505,6 +505,9 @@ input#searchInput::placeholder {
 	margin-bottom: 4.31rem;
 }
 
+.big-screen{
+	display: none;
+}
 /* Footer Styling */
 
 footer {

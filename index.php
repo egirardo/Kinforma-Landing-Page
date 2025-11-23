@@ -115,7 +115,7 @@ require_once __DIR__ . '/header.php';
 
 
     <section class="tech">
-        <h4>EXPLORE THE LAYERS BEHIND THE INNOVATION.</h4>
+        <h4 class="small-screen">EXPLORE THE LAYERS BEHIND THE INNOVATION.</h4>
         <div class="tech-flex">
             <div class="tech-img-container">
                 <video class="tech-img" id="tech-vid" autoplay muted loop>
@@ -124,6 +124,7 @@ require_once __DIR__ . '/header.php';
                 </video>
             </div>
             <div class="tech-info-wrapper">
+                <h4 class="big-screen">EXPLORE THE LAYERS BEHIND THE INNOVATION.</h4>
                 <div class="tech-info-container">
                     <img class="tech-icon" src="assets/square.svg">
                     <h5 class="tech-info-header">AeroShell™</h5>
@@ -139,18 +140,24 @@ require_once __DIR__ . '/header.php';
                     <h5 class="tech-info-header">ReForm™</h5>
                     <p>Eco-regenerative knit</p>
                 </div>
+                <p id="tech-button" class="button big-screen">LEARN MORE</p>
+
             </div>
         </div>
-        <p class="button">LEARN MORE</p>
+        <p class="button small-screen">LEARN MORE</p>
     </section>
 
     <section class="function">
-        <h4>DESIGNED TO MOVE, BUILT TO LAST</h4>
-        <p>Each piece is crafted from regenerative materials engineered to endure motion, wear and time.</p>
+        <div class="function-info">
+            <h4>DESIGNED TO MOVE, BUILT TO LAST</h4>
+            <p>Each piece is crafted from regenerative materials engineered to endure motion, wear and time.</p>
+            <button id="function-button" class="button sustainability big-screen">READ OUR SUSTAINABILITY REPORT</button>
+
+        </div>
         <div class="motion-img-container">
             <img class="motion-img" src="products/lifestyle/Life_Style_Bild_03.png">
         </div>
-        <button class="button sustainability">READ OUR SUSTAINABILITY REPORT</button>
+        <button class="button sustainability small-screen">READ OUR SUSTAINABILITY REPORT</button>
     </section>
 </main>
 
