@@ -20,7 +20,7 @@ require_once __DIR__ . '/header.php';
 
     <section class="hero">
         <div class="hero-container">
-            <img class="hero-img" src="products/lifestyle/Life_Style_Bild_02.jpg">
+            <img class="hero-img" src="products/lifestyle/Life_Style_Bild_01.jpg">
             <div class="hero-text">
                 <h4>THE FUTURE OF FASHION, TODAY.</h4>
                 <p>Experience a new dimension of fashion, where technology, sustainability and adaptive design meet.</p>
@@ -43,7 +43,7 @@ require_once __DIR__ . '/header.php';
 
             <div class="product-container" data-product="1">
                 <div class="product-img-container">
-                    <img class="product" src="assets/product.jpg">
+                    <img class="product" src="products/1/Jacka_Beige/Jacka_Beige_Bak.png">
                 </div>
                 <div class="expand-product">
                     <h4 class="product-name">SHELL JACKET</h4>
@@ -68,9 +68,8 @@ require_once __DIR__ . '/header.php';
                     <button class="toggle-btn">+</button>
                 </div>
                 <div class="color-picker">
-                    <div class="color-box stone" id="glasses-stone" data-img="product2-stone"></div>
-                    <div class="color-box sand" id="glasses-sand" data-img="product2-sand"></div>
-                    <div class="color-box moss" id="glasses-moss" data-img="product2-moss"></div>
+                    <div class="color-box sand" id="glasses-sand" data-img="products/2/Solglasögon_sand.png"></div>
+                    <div class="color-box moss" id="glasses-moss" data-img="products/2/Solglasögon_moss.png"></div>
                 </div>
                 <div class="description">
                     <p class="prod-description">Lightweight titanium eyewear with UV protection.</p>
@@ -86,9 +85,8 @@ require_once __DIR__ . '/header.php';
                     <button class="toggle-btn">+</button>
                 </div>
                 <div class="color-picker">
-                    <div class="color-box stone" id="glasses-stone" data-img="product3-stone"></div>
-                    <div class="color-box sand" id="glasses-sand" data-img="product3-sand"></div>
-                    <div class="color-box moss" id="glasses-moss" data-img="product3-moss"></div>
+                    <div class="color-box sand" id="bag-sand" data-img="products/3/Väska_sand.png"></div>
+                    <div class="color-box moss" id="bag-moss" data-img="products/3/Väska_moss.png"></div>
                 </div>
                 <div class="description">
                     <p class="prod-description">Constructed from recycled nylon with water resistant coating.</p>
@@ -97,7 +95,7 @@ require_once __DIR__ . '/header.php';
 
             <div class="product-container" data-product="4">
                 <div class="product-img-container">
-                    <img class="product" src="assets/product.jpg">
+                    <img class="product" src="products/4/Ring_Guld_Silver_2.png">
                 </div>
                 <div class="expand-product">
                     <h4 class="product-name">LOOP UNIT</h4>
