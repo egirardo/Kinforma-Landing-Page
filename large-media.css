@@ -222,22 +222,24 @@ input#searchInput::placeholder {
 }
 
 .discover {
-  	width: 17.375rem;
+  	width: 30.625rem;
   	height: 2.25rem;
   	position: relative;
-  	font-size: 0.875rem;
   	text-transform: uppercase;
   	display: inline-block;
-  	font-family: 'IBM Plex Mono';
   	color: #000;
   	text-align: left;
-	font-weight: 700;
 	margin-left: 0;
+    font-family: var(--ibm-plex);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
 }
 
 .menu-section {
-	width: 85vw;
-	align-self: center;
+	width: 21.6rem;
+	align-self: left;
 	display: flex;
 	flex-direction: column;
 	margin-top: 3rem;
