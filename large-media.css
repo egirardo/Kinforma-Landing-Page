@@ -23,6 +23,7 @@ body {
 
 main{
 	padding: 1.5rem;
+    padding-top: 0;
 	border-bottom: 1px solid black;
 }
 
@@ -254,6 +255,34 @@ input#searchInput::placeholder {
 
 .hero-container{
 	width: 100vw;
+    margin-top: 0;
+}
+
+.hero-text{
+	position: absolute;
+	left: 7.81rem;
+	bottom: 8.5rem;
+	width: 24.6rem;
+}
+
+.hero-text h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: .75rem;
+} 
+
+.hero-text p {
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+    letter-spacing: -0.03rem;
+}
+
+.text-container {
+    position: absolute;
+    left: 7.81rem;
+    bottom: 12rem;
 }
 
 .button{
