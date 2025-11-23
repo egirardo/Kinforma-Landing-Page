@@ -407,8 +407,8 @@ main{
 
 .tech h4 {
     position: absolute;
-    left: 8.74rem;
-    top: 101.4rem;
+    left: 6%;
+    top: 5rem;
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
@@ -437,11 +437,14 @@ main{
 h5{
 	font-size: 1rem;
 }
+.tech{
+	position: relative;
+}
 
 .tech .button {
     position: absolute;
-    left: 8.81rem;
-    top: 123rem;
+    left: 6%;
+    bottom: 10rem;
 
 }
 
