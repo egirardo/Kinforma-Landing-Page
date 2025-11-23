@@ -23,7 +23,7 @@ require_once __DIR__ . '/header.php';
             <img class="hero-img" src="products/lifestyle/Life_Style_Bild_01.jpg">
             <div class="hero-text">
                 <h4>THE FUTURE OF FASHION, TODAY.</h4>
-                <p>Experience a new dimension of fashion, where technology, sustainability and adaptive design meet</p>
+                <p>Experience a new dimension of fashion, where technology, sustainability and adaptive design meet.</p>
             </div>
         </div>
         <div class="text-container">
