@@ -524,15 +524,17 @@ footer {
 	align-items: center;
 	gap: 2rem;
 	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
 }
 
 /* Footer Menu */
+
 .footer-menu-container {
 	width: 85vw;
 	display: flex; 
 	flex-direction: column;
-	margin: .75rem;
 }
+
 .footer-menu-item {
 	display: flex;
 	flex-direction: row;
@@ -547,6 +549,12 @@ footer {
 	margin-bottom: 1rem;
 }
 
+.newsletter-lang {
+	height: 12.5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
 
 /* Newsletter */
 
@@ -610,6 +618,12 @@ input#email::placeholder {
 	font-size: .75rem;
 }
 
+.footer-bottom-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
 .footer-logo {
 	display: flex;
 	flex-direction: row;
@@ -631,9 +645,5 @@ input#email::placeholder {
 	font-size: .625rem;
 	margin: 0;
 	justify-self: left;
-}
-
-.footer-container:nth-child(5) {
-  gap: .5rem;
 }
 

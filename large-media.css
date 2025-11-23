@@ -478,19 +478,20 @@ footer {
 	z-index: -1;
 }
 .footer-container {
+    width: 100%;
 	display: flex; 
-	flex-direction: column;
-	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
 	gap: 2rem;
 	margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 /* Footer Menu */
 .footer-menu-container {
-	width: 85vw;
+	width: 31.7rem;
 	display: flex; 
 	flex-direction: column;
-	margin: .75rem;
 }
 .footer-menu-item {
 	display: flex;
@@ -499,7 +500,7 @@ footer {
 }
 
 .footer-menu-item h5 {
-	font-size: 0.75rem;
+	font-size: 1rem;
 	font-style: normal;
 	font-weight: 700;
 	margin-top: 1rem;
@@ -508,6 +509,10 @@ footer {
 
 
 /* Newsletter */
+.newsletter-lang {
+    width: 37.0625rem;
+    height: 14.3125rem;
+}
 
 .newsletter-container {
 	display: flex;
@@ -516,6 +521,13 @@ footer {
 	gap: 1rem;
 }
 
+.newsletter-container h3{
+    font-size: 1rem;
+}
+
+label {
+    font-size: .875rem;
+}
 form {
 	display: flex;
 	flex-direction: column;
@@ -531,14 +543,16 @@ input#email {
 	background: none;
 	border: none;
 	border-bottom: 1px solid black;
-	width: 14.875rem;
+	width: 31.5rem;
 	text-align: left;
+    font-size: .875rem;
 }
 
 input#email::placeholder {
 	margin: 0;
 	text-align: left;
 	font-family: "IBM Plex Mono";
+    font-size: .875rem;
 }
 
 .button.footer {
@@ -548,6 +562,7 @@ input#email::placeholder {
 	padding: 0.3125rem 0;
 	justify-content: center;
 	align-items: center;
+    font-size: .875rem;
 }
 
 .language-container {
@@ -566,7 +581,7 @@ input#email::placeholder {
 
 .selector h3, p {
 	margin: 0;
-	font-size: .75rem;
+	font-size: 1rem;
 }
 
 .footer-logo {
@@ -590,10 +605,6 @@ input#email::placeholder {
 	font-size: .625rem;
 	margin: 0;
 	justify-self: left;
-}
-
-.footer-container:nth-child(5) {
-  gap: .5rem;
 }
 
 }

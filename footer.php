@@ -24,26 +24,30 @@
                 <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
             </div>
         </div>
-        <div class="newsletter-container">
-            <h3 class="newsletter-title">NEWSLETTER</h3>
-            <form action="/index.php" method="post" enctype="text/plain">
-                <label for="email">EMAIL ADDRESS *</label>
-                <div class="input-button-pair">
-                    <input type="email" name="email" id="email" placeholder="Enter your email address">
-                    <button class="button footer" type="submit">CONTINUE</button>
+        <div class="newsletter-lang">
+            <div class="newsletter-container">
+                <h3 class="newsletter-title">NEWSLETTER</h3>
+                <form action="/index.php" method="post" enctype="text/plain">
+                    <label for="email">EMAIL ADDRESS *</label>
+                    <div class="input-button-pair">
+                        <input type="email" name="email" id="email" placeholder="Enter your email address">
+                        <button class="button footer" type="submit">SIGN UP</button>
+                    </div>
+                </form>
+            </div>
+            <div class="language-container">
+                <div class="selector">
+                    <h3>SHOP IN:</h3>
+                    <p>SWEDEN</p>
                 </div>
-            </form>
-        </div>
-        <div class="language-container">
-            <div class="selector">
-                <h3>SHOP IN:</h3>
-                <p>SWEDEN</p>
-            </div>
-            <div class="selector">
-                <h3>LANGUAGE:</h3>
-                <p>ENGLISH</p>
+                <div class="selector">
+                    <h3>LANGUAGE:</h3>
+                    <p>ENGLISH</p>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="footer-bottom-container">
         <div class="footer-logo">
             <?= $footerK; ?>
         </div>
