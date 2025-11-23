@@ -1,13 +1,13 @@
 //Popup
-document.getElementById("popupOverlay").style.display = "flex";
+document.getElementById("popupOverlay").style.display = "none";
 
 document.getElementById("closePopup").onclick = function() {
     document.getElementById("popupOverlay").style.display = "none";
 };
 
-setTimeout(function() {
+/*setTimeout(function() {
     document.getElementById("popupOverlay").style.display = "flex";
-}, 5000); // Shows popup after 5 seconds
+}, 5000); // Shows popup after 5 seconds*/
 
 window.onclick = function(event) {
     if (event.target == document.getElementById("popupOverlay")) {
@@ -21,6 +21,9 @@ if (!sessionStorage.getItem("popupShown")) {
 }; //Only shows the popup once per session
 
 
+//Tech-video playbackspeed
+let vid = document.getElementById("tech-vid");
+vid.playbackRate = 0.7;
 
 // Hidden Header Menu
 

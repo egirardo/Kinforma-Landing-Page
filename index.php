@@ -20,7 +20,11 @@ require_once __DIR__ . '/header.php';
 
     <section class="hero">
         <div class="hero-container">
-            <img class="hero-img" src="assets/hero.png">
+            <img class="hero-img" src="products/lifestyle/Life_Style_Bild_02.jpg">
+            <div class="hero-text">
+                <h4>THE FUTURE OF FASHION, TODAY.</h4>
+                <p>Experience a new dimension of fashion, where technology, sustainability and adaptive design meet</p>
+            </div>
         </div>
         <div class="text-container">
             <p class="button">EXPLORE THE COLLECTION</p>
@@ -46,9 +50,9 @@ require_once __DIR__ . '/header.php';
                     <button class="toggle-btn">+</button>
                 </div>
                 <div class="color-picker">
-                    <div class="color-box stone" id="jacket-stone" data-img="products/1/product1-stone.avif"></div>
-                    <div class="color-box sand" id="jacket-sand" data-img="products/1/product1-sand.avif"></div>
-                    <div class="color-box moss" id="jacket-moss" data-img="products/1/product1-moss.avif"></div>
+                    <div class="color-box stone" id="jacket-stone" data-img="products/1/Jacka_Blå/Jacka_Blå_Fram.png"></div>
+                    <div class="color-box sand" id="jacket-sand" data-img="products/1/Jacka_Beige/Jacka_Beige_Fram.png"></div>
+                    <div class="color-box moss" id="jacket-moss" data-img="products/1/Jacka_Brungrå/Jacka_Brungrå_Fram.png"></div>
                 </div>
                 <div class="description">
                     <p class="prod-description">Lightweight, weatherproof shell engineered for freedom of movement.</p>
@@ -115,24 +119,29 @@ require_once __DIR__ . '/header.php';
 
     <section class="tech">
         <h4>EXPLORE THE LAYERS BEHIND THE INNOVATION.</h4>
-        <div class="tech-img-container">
-            <img class="tech-img" src="assets/layers.jpg">
-        </div>
-        <div class="tech-info-wrapper">
-            <div class="tech-info-container">
-                <img class="tech-icon" src="assets/square.svg">
-                <h5 class="tech-info-header">AeroShell™</h5>
-                <p>Hydro-resistant layer</p>
+        <div class="tech-flex">
+            <div class="tech-img-container">
+                <video class="tech-img" id="tech-vid" autoplay muted loop>
+                    <source src="products/tech/tech-turntable.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
             </div>
-            <div class="tech-info-container">
-                <img class="tech-icon" src="assets/triangle.svg">
-                <h5 class="tech-info-header">BioMem™</h5>
-                <p>Thermo-adaptive membrane</p>
-            </div>
-            <div class="tech-info-container">
-                <img class="tech-icon" src="assets/circle.svg">
-                <h5 class="tech-info-header">ReForm™</h5>
-                <p>Eco-regenerative knit</p>
+            <div class="tech-info-wrapper">
+                <div class="tech-info-container">
+                    <img class="tech-icon" src="assets/square.svg">
+                    <h5 class="tech-info-header">AeroShell™</h5>
+                    <p>Hydro-resistant layer</p>
+                </div>
+                <div class="tech-info-container">
+                    <img class="tech-icon" src="assets/triangle.svg">
+                    <h5 class="tech-info-header">BioMem™</h5>
+                    <p>Thermo-adaptive membrane</p>
+                </div>
+                <div class="tech-info-container">
+                    <img class="tech-icon" src="assets/circle.svg">
+                    <h5 class="tech-info-header">ReForm™</h5>
+                    <p>Eco-regenerative knit</p>
+                </div>
             </div>
         </div>
         <p class="button">LEARN MORE</p>

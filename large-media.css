@@ -57,67 +57,31 @@ p {
 
 /*popup*/
 
-.popup-overlay {
-    position: fixed;
-    top: 0;
-	left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Slightly transparent */
-    display: none; /* Hidden by default */
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .popup {
     width: 44rem;
 	height: 15rem;
-    animation: fadeIn 0.5s;
-	background-color: white;
-	border: 1px solid black;
-	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 1rem;
-	position: relative;
 
 }
 .popup h4{
 	margin: 1rem;
 	font-size: 1.25rem;
 }
-.close{
-	height: 1rem;
-	width: 1rem;
-	position: absolute;
-	margin: 10px;
-	top: 0;
-	right: 0;
-}
+
 .email-container{
-	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 1rem;
 }
 #email-input{
-	border: none;
-	border-bottom: 1px solid black;
-	height: 2rem;
-	width: 15rem;
+	width: 18rem;
 }
 button#email-signup{
-	display: block;
 	width: 10rem;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
 
 /* Header Styling */
 
@@ -288,12 +252,8 @@ input#searchInput::placeholder {
 
 /* Main */
 
-.hero-container, .tech-img-container, .motion-img-container{
-    display: flex;
-    justify-content: center;
-    margin: 0.5rem;
-	margin-bottom: 1rem;
-	justify-self: center;
+.hero-container{
+	width: 100vw;
 }
 
 .button{
@@ -358,31 +318,7 @@ input#searchInput::placeholder {
 	cursor: pointer;
 	position: relative;
 }
-.stone{
-	background-color: var(--stone);
-}
-.sand{
-	background-color: var(--sand);
-}
-.moss{
-	background-color: var(--moss);
-}
 
-.color-box.active::after {
-	content: "";
-	position: absolute;
-	bottom: -6px;
-	left: 50%;
-	transform: translateX(-50%);
-	width: 15px;
-	height: 2px;
-	background: black;
-	z-index: -1;
-}
-
-.expand-product{
-	align-items: center;
-}
 .product-name{
 	margin-left: 0;
 }
@@ -424,35 +360,33 @@ input#searchInput::placeholder {
 
 
 /*Tech section*/
-.tech{
 
-    margin-top: 80px;
-    margin-bottom: 60px;
+.tech-flex{
+	display: flex;
+	flex-direction: row-reverse;
 }
 .tech-img-container{
-    height: 345px;
-    width: 345px;
-    object-fit: cover;
+    width: 30rem;
+	aspect-ratio: 1;
+	flex-shrink: 0;
 }
-.motion-img-container{
-    width: 345px;
-    height: 490px;
+.tech-info-wrapper{
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 1rem;
 }
-
-.tech-icon, h5{
-	display: inline-block;
-}
-
-.tech-info-container p{
-	margin: 0;
-}
-
-.tech-info-container:last-child{
-	margin-bottom: 3rem;
+h5{
+	font-size: 1rem;
 }
 
 /* Function */
 
+.motion-img-container{
+	width: 345px;
+	height: 490px;
+}
 .function p {
 	margin-bottom: 1.16375rem;
 }
@@ -596,3 +530,27 @@ input#email::placeholder {
 }
 
 }
+
+@media screen and (min-width: 1050px) {
+
+	.product-scroll{
+		width: 100%;
+		gap: 2rem;
+		overflow: auto;
+		white-space: unset;
+		justify-content: space-between;
+	}
+
+	.product-container{
+		width: 22%;
+    	margin: 1rem 0 100px 0;
+	}
+
+	.product-img-container{
+		width: 100%;
+		min-height: 345px;
+;
+	}
+	
+} 
+	
