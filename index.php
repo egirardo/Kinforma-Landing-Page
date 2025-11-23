@@ -10,9 +10,9 @@ require_once __DIR__ . '/header.php';
             <h4>GET FIRST ACCESS TO NEW RELEASES</h4>
             <p>Be the first to know whennew drops go live. Join our early-access list.</p>
             <div class="email-container">
-                <form method="post" action="">
+                <form class="popup-form" method="post" action="">
                     <input id="email-input" type="email" placeholder="Enter your email adress">
-                    <button class="button" type="submit">SIGN UP</button>
+                    <button id="email-signup" class="button" type="submit">SIGN UP</button>
                 </form>
             </div>
         </div>

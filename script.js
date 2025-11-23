@@ -1,5 +1,5 @@
 //Popup
-document.getElementById("popupOverlay").style.display = "none";
+document.getElementById("popupOverlay").style.display = "flex";
 
 document.getElementById("closePopup").onclick = function() {
     document.getElementById("popupOverlay").style.display = "none";

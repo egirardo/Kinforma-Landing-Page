@@ -9,7 +9,7 @@
 	--ibm-plex-sans: "IBM Plex Sans", sans-serif;
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 700px){
 
 * {
     box-sizing: border-box;
@@ -71,19 +71,22 @@ p {
 }
 
 .popup {
-    width: 24rem;
-	height: 13rem;
+    width: 44rem;
+	height: 15rem;
     animation: fadeIn 0.5s;
 	background-color: white;
 	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	justify-content: center;
+	align-items: center;
 	padding: 1rem;
 	position: relative;
+
 }
 .popup h4{
 	margin: 1rem;
+	font-size: 1.25rem;
 }
 .close{
 	height: 1rem;
@@ -98,12 +101,17 @@ p {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	padding: 1rem;
 }
 #email-input{
 	border: none;
 	border-bottom: 1px solid black;
 	height: 2rem;
 	width: 15rem;
+}
+button#email-signup{
+	display: block;
+	width: 10rem;
 }
 
 @keyframes fadeIn {
