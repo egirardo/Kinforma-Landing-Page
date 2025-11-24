@@ -79,6 +79,7 @@ p {
 	justify-content: space-evenly;
 	padding: 1.5rem;
 	position: relative;
+	z-index: 9999;
 }
 .popup h4{
 	margin: 10px;
@@ -148,7 +149,7 @@ header {
 	background-color: white;
 	position:sticky;
 	top: 0;
-	z-index: 9999;
+	z-index: 10;
 }
 
 .header-wrapper, .section-head, .expand-product {
@@ -296,6 +297,7 @@ input#searchInput::placeholder {
     margin: 0.5rem;
 	margin-bottom: 2rem;
 	justify-self: center;
+	z-index: -1;
 }
 
 .hero-container{

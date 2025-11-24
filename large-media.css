@@ -300,6 +300,10 @@ main{
 	background: white;
 }
 
+.text-container .button{
+	z-index: -1;
+}
+
 /* Products */
 
 .section-head{
@@ -457,6 +461,7 @@ h5{
 	justify-content: center;
 	padding: 5%;
 	width: 50%;
+	z-index: -1;
 }
 
 .function h4{

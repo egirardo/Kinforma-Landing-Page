@@ -5,9 +5,9 @@ document.getElementById("closePopup").onclick = function() {
     document.getElementById("popupOverlay").style.display = "none";
 };
 
-/*setTimeout(function() {
+setTimeout(function() {
     document.getElementById("popupOverlay").style.display = "flex";
-}, 5000); // Shows popup after 5 seconds*/
+}, 5000); // Shows popup after 5 seconds
 
 window.onclick = function(event) {
     if (event.target == document.getElementById("popupOverlay")) {
