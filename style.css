@@ -181,6 +181,9 @@ header {
 
 /* Hidden Menu */
 
+.menu-img-container {
+	display: none;
+}
 .header-menu {
 	height: 88.175vh;
 	width: 100vw;
@@ -391,6 +394,131 @@ input#searchInput::placeholder {
 	border: 1px solid black;
 }
 
+.carousel {
+	height: 21.6rem;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	& .carousel-slides {
+		width: 400%;
+		display: flex;
+		animation: carousel-animation 12s infinite;
+		& .motion-img {
+			width: calc(100% / 4);
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+@keyframes carousel-animation {
+	0%{
+		transform: translateX(0);
+	}
+	25%{
+		transform: translateX(-25%);
+	}
+	50%{
+		transform: translateX(-50%);
+	}
+	100%{
+		transform: translateX(-75%);
+	}
+}
+
+.dot-container {
+	text-align:center;
+}
+
+.dot.one {
+	animation: shift-one 12s infinite;
+}
+
+.dot.two {
+	animation: shift-two 12s infinite;
+}
+
+.dot.three {
+	animation: shift-three 12s infinite;
+}
+
+.dot.four {
+	animation: shift-four 12s infinite;
+}
+
+@keyframes shift-one {
+	0%{
+		opacity: 1;
+	}
+	25%{
+		opacity: .4;
+	}
+	50%{
+		opacity: .4;
+	}
+	100%{
+		opacity: .4;
+	}
+}
+@keyframes shift-two {
+	0%{
+		opacity: .4;
+	}
+	25%{
+		opacity: 1;
+	}
+	50%{
+		opacity: .4;
+	}
+	100%{
+		opacity: .4;
+	}
+}
+@keyframes shift-three {
+	0%{
+		opacity: .4;
+	}
+	25%{
+		opacity: .4;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: .4;
+	}
+}
+@keyframes shift-four {
+	0%{
+		opacity: .4;
+	}
+	25%{
+		opacity: .4;
+	}
+	50%{
+		opacity: .4;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+.dot {
+  height: .56rem;
+  width: .56rem;
+  margin: 0 2px;
+  border-radius: .11rem;
+  background-color: #000;
+  opacity: .4;
+  display: inline-block;
+}
+
+
+.active {
+	opacity: 1;
+}
+
+
 
 .color-box{
 	width: 15px;
@@ -484,8 +612,12 @@ input#searchInput::placeholder {
     object-fit: cover;
 }
 .motion-img-container{
-    width: 345px;
-    height: 490px;
+    width: 21.6rem;
+    height: 21.6rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .tech-icon, h5{

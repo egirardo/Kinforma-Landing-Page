@@ -139,7 +139,6 @@ header {
 /* Hidden Menu */
 
 .header-menu {
-	height: 88.175vh;
 	width: 100vw;
 	background-color: var(--background);
 	position: absolute;
@@ -165,7 +164,7 @@ pointer-events: none;
 	align-items: center;
 	width: 85vw;
 	margin: 3rem;
-
+	z-index: 2;
 }
 
 .search-icon {
@@ -173,6 +172,7 @@ pointer-events: none;
 	right: 1rem;
 	align-self: center;
 }
+
 
 input#searchInput {
 	background: white;
@@ -195,13 +195,13 @@ input#searchInput::placeholder {
 }
 
 .discover {
-  	width: 30.625rem;
-  	height: 2.25rem;
-  	position: relative;
-  	text-transform: uppercase;
-  	display: inline-block;
-  	color: #000;
-  	text-align: left;
+	width: 30.625rem;
+	height: 2.25rem;
+	position: relative;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #000;
+	text-align: left;
 	margin-left: 0;
     font-family: var(--ibm-plex);
     font-size: 1.5rem;
@@ -231,6 +231,13 @@ input#searchInput::placeholder {
 	padding-left: .5rem;
 }
 
+.menu-img-container {
+	display:block;
+	position:absolute;
+	right: 0;
+	bottom: 0;
+}
+
 .menu-footer {
 	width: 100vw;
 	position: absolute; 
@@ -249,6 +256,8 @@ input#searchInput::placeholder {
 #hidden {
 	display: none;
 }
+
+
 
 
 /* Main */
