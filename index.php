@@ -50,8 +50,8 @@ require_once __DIR__ . '/header.php';
                     <button class="toggle-btn">+</button>
                 </div>
                 <div class="color-picker">
-                    <div class="color-box stone" id="jacket-stone" data-img="products/1/Jacka_Blå/Jacka_Blå_Fram.png"></div>
-                    <div class="color-box sand" id="jacket-sand" data-img="products/1/Jacka_Beige/Jacka_Beige_Fram.png"></div>
+                    <div class="color-box stone" id="jacket-stone" data-img="products/1/Jacka_Beige/Jacka_Biege_Kritvit.png"></div>
+                    <div class="color-box sand" id="jacket-sand" data-img="products/1/Jacka_Beige/Jacka_Biege_Offwhite.png"></div>
                     <div class="color-box moss" id="jacket-moss" data-img="products/1/Jacka_Brungrå/Jacka_Brungrå_Fram.png"></div>
                 </div>
                 <div class="description">
@@ -155,7 +155,20 @@ require_once __DIR__ . '/header.php';
 
         </div>
         <div class="motion-img-container">
-            <img class="motion-img" src="products/lifestyle/Life_Style_Bild_03.png">
+            <div class="carousel">
+                <div class="carousel-slides">
+                    <img class="motion-img" src="products/lifestyle/Life_Style_Bild_01_fyrkant.png">
+                    <img class="motion-img" src="products/lifestyle/Life_Style_Bild_02_fyrkant.png">
+                    <img class="motion-img" src="products/lifestyle/Life_Style_Bild_03_fyrkant.png">
+                    <img class="motion-img" src="products/lifestyle/Life_Style_Bild_04_fyrkant.png">
+                </div>
+            </div>
+            <div class="dot-container">
+                <span class="dot one"></span>
+                <span class="dot two"></span>
+                <span class="dot three"></span>
+                <span class="dot four"></span>
+            </div>
         </div>
         <button class="button sustainability small-screen">READ OUR SUSTAINABILITY REPORT</button>
     </section>
