@@ -15,10 +15,7 @@ window.onclick = function(event) {
     }
 }; //Closes popup if you click outside
 
-if (!sessionStorage.getItem("popupShown")) {
-    document.getElementById("popupOverlay").style.display = "block";
-    sessionStorage.setItem("popupShown", "true");
-}; //Only shows the popup once per session
+
 
 
 //Tech-video playbackspeed

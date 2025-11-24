@@ -258,6 +258,7 @@ main{
 
 .hero-container{
 	width: 100vw;
+	height: 38rem;
     margin-top: 0;
 }
 
@@ -286,7 +287,7 @@ main{
 .text-container {
     position: absolute;
     left: 7.81rem;
-    bottom: 12rem;
+    bottom: 8rem;
 }
 
 .button{
@@ -298,10 +299,6 @@ main{
     border: 1px solid black;
     padding: 8px 6px;
 	background: white;
-}
-
-.text-container .button{
-	z-index: -1;
 }
 
 /* Products */
@@ -461,7 +458,6 @@ h5{
 	justify-content: center;
 	padding: 5%;
 	width: 50%;
-	z-index: -1;
 }
 
 .function h4{
@@ -496,7 +492,6 @@ footer {
   	font-size: 0.625rem;
   	color: #000;
   	font-family: 'B612';
-	z-index: -1;
 }
 .footer-container {
     width: 100%;
