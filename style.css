@@ -181,6 +181,9 @@ header {
 
 /* Hidden Menu */
 
+.menu-img-container {
+	display: none;
+}
 .header-menu {
 	height: 88.175vh;
 	width: 100vw;

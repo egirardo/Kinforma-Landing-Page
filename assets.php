@@ -1,6 +1,6 @@
 <?php
 
-$headerMenuLine = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 345 2" fill="none">
+$headerMenuLine = '<svg class="menu-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 345 2" fill="none">
 <path d="M0 0.510162L345 0.50001" stroke="#B5B5B5"/>
 </svg>';
 

@@ -73,9 +73,9 @@ require __DIR__ . "/assets.php";
                     </div>
                     <?= $headerMenuLine ?>
                 </div>
-                <div class="menu-img-container">
-                    <img class="menu-img" src="/assets/hero.jpg">
-                </div>
+            </div>
+            <div class="menu-img-container">
+                <img class="menu-img" src="/assets/menu-background.png">
             </div>
             <div class="menu-footer">
                 <?= $headerFooterLine ?>
