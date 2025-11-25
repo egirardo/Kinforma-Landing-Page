@@ -342,6 +342,7 @@ main{
 }
 .product-img-container{
     border: 1px solid black;
+	height: 25.875rem;
     display: flex;
     justify-content: center;
 }
