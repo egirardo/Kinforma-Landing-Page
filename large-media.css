@@ -328,9 +328,8 @@ main{
 }
 
 .product-scroll{
-	height: 33rem;
+	height: 36rem;
 	display: flex;
-	overflow: auto;
 	white-space: nowrap;
 }
 ::-webkit-scrollbar{
@@ -339,11 +338,9 @@ main{
 
 .product-container{
     width: 225px;
-    margin: 1rem 2rem 100px 0;
 	flex-shrink: 0;
 }
 .product-img-container{
-    height: 345px;
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -353,6 +350,7 @@ main{
     width: 100%;
 	object-fit: cover;
 }
+
 
 .motion-img {
 	border: 1px solid black;
@@ -384,7 +382,7 @@ main{
 }
 .description {
 	width: 14.0625rem;
-	height: 2.53913rem;
+	height: 5rem;
 	text-wrap: wrap;
 	color: #000;
 	font-family: var(--ibm-plex);
@@ -398,7 +396,6 @@ main{
 
 .description.open {
 	opacity: 1;
-	max-height: 200px; /* enough room for content */
 	transition: max-height 0.25s ease-in, opacity 0.2s ease-in;
 }
 
@@ -406,7 +403,9 @@ main{
 .description p {
 	margin: 0;
 	padding-top: 1rem;
+	height: 5;
 }
+
 
 
 /*Tech section*/
@@ -640,8 +639,7 @@ input#email::placeholder {
 	.product-scroll{
 		width: 100%;
 		gap: 2rem;
-		overflow: auto;
-		white-space: unset;
+		overflow: visible;
 		justify-content: space-between;
 	}
 
@@ -652,8 +650,7 @@ input#email::placeholder {
 
 	.product-img-container{
 		width: 100%;
-		min-height: 345px;
-;
+		aspect-ratio: 1 / 2;
 	}
 	
 } 
