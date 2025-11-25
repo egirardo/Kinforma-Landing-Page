@@ -297,10 +297,9 @@ main{
 	margin-bottom: 2rem;
 }
 
-.text-container {
-    position: absolute;
-    left: 7.81rem;
-    bottom: 8rem;
+.text-container p{
+	color: #000;
+	font-size: .75rem;
 }
 
 .button{
@@ -332,7 +331,7 @@ main{
 }
 
 .product-scroll{
-	height: 36rem;
+	height: 39rem;
 	display: flex;
 	white-space: nowrap;
 }

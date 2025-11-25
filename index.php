@@ -24,9 +24,12 @@ require_once __DIR__ . '/header.php';
             <div class="hero-text">
                 <h4>THE FUTURE OF FASHION, TODAY.</h4>
                 <p>Experience a new dimension of fashion, where technology, sustainability and adaptive design meet.</p>
+                <div class="text-container big-screen">
+                    <p class="button">EXPLORE THE COLLECTION</p>
+                </div>
             </div>
         </div>
-        <div class="text-container">
+        <div class="text-container small-screen">
             <p class="button">EXPLORE THE COLLECTION</p>
         </div>
     </section>
