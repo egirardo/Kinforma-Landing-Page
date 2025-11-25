@@ -20,8 +20,11 @@ body {
 }
 
 main{
-	padding: 1.5rem;
 	border-bottom: 1px solid black;
+}
+.main-padding{
+	padding: 1.5rem;
+
 }
 
 h3 {
@@ -304,7 +307,10 @@ input#searchInput::placeholder {
 	margin-bottom: 2rem;
 	justify-self: center;
 }
-
+.hero{
+	padding: 1.5rem;
+	padding-bottom: 0;
+}
 .hero-container{
 	width: 100%;
 	height: 75vh;
@@ -379,7 +385,6 @@ input#searchInput::placeholder {
 }
 .product-img-container{
     height: 345px;
-	aspect-ratio: 1 / 1.5;
     border: 1px solid black;
     display: flex;
     justify-content: center;
