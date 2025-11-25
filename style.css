@@ -398,11 +398,11 @@ input#searchInput::placeholder {
 	overflow: hidden;
 	position: relative;
 	& .carousel-slides {
-		width: 400%;
+		width: 300%;
 		display: flex;
-		animation: carousel-animation 12s infinite;
+		animation: carousel-animation 15s ease infinite;
 		& .motion-img {
-			width: calc(100% / 4);
+			width: calc(100% / 3);
 			height: 100%;
 			object-fit: cover;
 		}
@@ -413,14 +413,11 @@ input#searchInput::placeholder {
 	0%{
 		transform: translateX(0);
 	}
-	25%{
-		transform: translateX(-25%);
-	}
 	50%{
-		transform: translateX(-50%);
+		transform: translateX(-33.3%);
 	}
 	100%{
-		transform: translateX(-75%);
+		transform: translateX(-66.6%);
 	}
 }
 
@@ -429,27 +426,21 @@ input#searchInput::placeholder {
 }
 
 .dot.one {
-	animation: shift-one 12s infinite;
+	animation: shift-one 15s infinite;
 }
 
 .dot.two {
-	animation: shift-two 12s infinite;
+	animation: shift-two 15s infinite;
 }
 
 .dot.three {
-	animation: shift-three 12s infinite;
+	animation: shift-three 15s infinite;
 }
 
-.dot.four {
-	animation: shift-four 12s infinite;
-}
 
 @keyframes shift-one {
 	0%{
 		opacity: 1;
-	}
-	25%{
-		opacity: .4;
 	}
 	50%{
 		opacity: .4;
@@ -458,15 +449,13 @@ input#searchInput::placeholder {
 		opacity: .4;
 	}
 }
+
 @keyframes shift-two {
 	0%{
 		opacity: .4;
 	}
-	25%{
-		opacity: 1;
-	}
 	50%{
-		opacity: .4;
+		opacity: 1;
 	}
 	100%{
 		opacity: .4;
@@ -476,23 +465,6 @@ input#searchInput::placeholder {
 	0%{
 		opacity: .4;
 	}
-	25%{
-		opacity: .4;
-	}
-	50%{
-		opacity: 1;
-	}
-	100%{
-		opacity: .4;
-	}
-}
-@keyframes shift-four {
-	0%{
-		opacity: .4;
-	}
-	25%{
-		opacity: .4;
-	}
 	50%{
 		opacity: .4;
 	}
@@ -500,6 +472,7 @@ input#searchInput::placeholder {
 		opacity: 1;
 	}
 }
+
 
 .dot {
   height: .56rem;

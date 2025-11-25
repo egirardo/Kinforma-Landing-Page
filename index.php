@@ -8,7 +8,7 @@ require_once __DIR__ . '/header.php';
         <div class="popup" id="popup">
             <img class="close" id="closePopup" src="assets/menu-x.svg">
             <h4>GET FIRST ACCESS TO NEW RELEASES</h4>
-            <p>Be the first to know whennew drops go live. Join our early-access list.</p>
+            <p>Be the first to know when new drops go live. Join our early-access list.</p>
             <div class="email-container">
                 <form class="popup-form" method="post" action="">
                     <input id="email-input" type="email" placeholder="Enter your email adress">
@@ -20,7 +20,7 @@ require_once __DIR__ . '/header.php';
 
     <section class="hero">
         <div class="hero-container">
-            <img class="hero-img" src="products/lifestyle/Life_Style_Bild_01.jpg">
+            <img class="hero-img" src="products/lifestyle/Life_Style_Bild_03.png">
             <div class="hero-text">
                 <h4>THE FUTURE OF FASHION, TODAY.</h4>
                 <p>Experience a new dimension of fashion, where technology, sustainability and adaptive design meet.</p>
@@ -159,7 +159,6 @@ require_once __DIR__ . '/header.php';
                 <div class="carousel-slides">
                     <img class="motion-img" src="products/lifestyle/Life_Style_Bild_01_fyrkant.png">
                     <img class="motion-img" src="products/lifestyle/Life_Style_Bild_02_fyrkant.png">
-                    <img class="motion-img" src="products/lifestyle/Life_Style_Bild_03_fyrkant.png">
                     <img class="motion-img" src="products/lifestyle/Life_Style_Bild_04_fyrkant.png">
                 </div>
             </div>
@@ -167,7 +166,6 @@ require_once __DIR__ . '/header.php';
                 <span class="dot one"></span>
                 <span class="dot two"></span>
                 <span class="dot three"></span>
-                <span class="dot four"></span>
             </div>
         </div>
         <button class="button sustainability small-screen">READ OUR SUSTAINABILITY REPORT</button>
