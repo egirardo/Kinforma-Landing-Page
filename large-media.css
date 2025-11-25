@@ -237,10 +237,13 @@ input#searchInput::placeholder {
 	right: 0;
 	bottom: 0;
 }
+.menu-img {
+	height: 68vh;
+}
 
 .menu-footer {
 	width: 100vw;
-	position: absolute; 
+	position: relative; 
 	bottom: 0;
 }
 
@@ -456,6 +459,16 @@ h5{
 
 /* Function */
 
+.carousel {
+	height: 37rem;
+}
+.dot {
+	width: .97rem;
+	height: .97rem;
+}
+.dot-container {
+	margin: 1rem;
+}
 .function{
 	position: relative;
 	display: flex;

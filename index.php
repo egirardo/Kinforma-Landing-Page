@@ -50,7 +50,7 @@ require_once __DIR__ . '/header.php';
                     <button class="toggle-btn">+</button>
                 </div>
                 <div class="color-picker">
-                    <div class="color-box stone" id="jacket-stone" data-img="products/1/Jacka_Beige/Jacka_Biege_Kritvit.png"></div>
+                    <div class="color-box stone" id="jacket-stone" data-img="products/1/Jacka_Blå/Jacka_Bla_Vitt.png"></div>
                     <div class="color-box sand" id="jacket-sand" data-img="products/1/Jacka_Beige/Jacka_Biege_Kritvit.png"></div>
                     <div class="color-box moss" id="jacket-moss" data-img="products/1/Jacka_Brungrå/Jacka_Brun_Vitt.png"></div>
                 </div>
