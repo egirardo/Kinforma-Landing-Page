@@ -108,17 +108,18 @@ products.forEach(product => {
 });
 
 //Language expander in footer
-const secondLang = document.querySelector('swe');
-const langBtn = document.querySelector('lang');
+const secondLang = document.querySelector(".swe");
+const langBtn = document.querySelector("#lang");
 
 console.log(secondLang);
 console.log(langBtn);
 
 
 langBtn.addEventListener('click', function(event){
-    console.log(event.target)
-    secondLang.style.opacity = 1;
-    langBtn.textContent = description.classList.contains('open') ? "−" : "+";
+
+    secondLang.classList.toggle('open');
+    langBtn.textContent = secondLang.classList.contains('open') ? "−" : "+";
+    secondLang.style.opacity = secondLang.classList.contains('open') ? 1 : 0;
 });
 
 //Description expander

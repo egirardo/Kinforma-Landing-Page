@@ -736,8 +736,13 @@ input#email::placeholder {
 	display: flex;
 	flex-direction: column;
 	width: 85vw;
+	margin-top: 1rem;
 }
 
+.options {
+	display: flex;
+	flex-direction: row;
+}
 .selector {
 	display: flex;
 	width: 85vw;
