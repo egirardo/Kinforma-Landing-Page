@@ -5,23 +5,23 @@
         <div class="footer-menu-container">
             <div class="footer-menu-item">
                 <h5>CONTACT</h5>
-                <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
+                <img class="plus-icon" src="./assets/mage_plus.svg" alt="plus sign">
             </div>
             <div class="footer-menu-item">
                 <h5>SUPPORT</h5>
-                <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
+                <img class="plus-icon" src="./assets/mage_plus.svg" alt="plus sign">
             </div>
             <div class="footer-menu-item">
                 <h5>COMPANY</h5>
-                <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
+                <img class="plus-icon" src="./assets/mage_plus.svg" alt="plus sign">
             </div>
             <div class="footer-menu-item">
                 <h5>FOLLOW US</h5>
-                <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
+                <img class="plus-icon" src="./assets/mage_plus.svg" alt="plus sign">
             </div>
             <div class="footer-menu-item">
                 <h5>LEGAL</h5>
-                <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
+                <img class="plus-icon" src="./assets/mage_plus.svg" alt="plus sign">
             </div>
         </div>
         <div class="newsletter-lang">
