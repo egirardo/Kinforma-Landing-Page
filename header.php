@@ -27,19 +27,19 @@ require __DIR__ . "/assets.php";
     <header>
         <nav class="header-wrapper">
             <div class="logo-container">
-                <img class="logo" src="assets/logo.svg">
+                <img class="logo" src="./assets/logo.svg">
                 <h3 class="logo-typo">kinforma</h3>
             </div>
             <div class="nav-container">
-                <img class="cart" src="assets/shopping cart.svg">
-                <img class="nav-button" id="open-menu" src="assets/nav.svg">
-                <img class="hidden menu-x" id="hidden" src="assets/menu-x.svg">
+                <img class="cart" src="./assets/shopping cart.svg">
+                <img class="nav-button" id="open-menu" src="./assets/nav.svg">
+                <img class="hidden menu-x" id="hidden" src="./assets/menu-x.svg">
             </div>
         </nav>
         <div class="header-menu" id="hidden">
             <div class="search-bar">
                 <input type="search" id="searchInput" placeholder="SEARCH">
-                <a class="search-icon"><img src="/assets/ei_search.svg"></a>
+                <a class="search-icon"><img src="./assets/ei_search.svg"></a>
             </div>
             <div class="slogan-menu-container">
                 <div class="slogan">
@@ -49,33 +49,33 @@ require __DIR__ . "/assets.php";
                     <?= $headerMenuLine ?>
                     <div class="menu-option">
                         <a>COLLECTION</a>
-                        <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                        <img class="menu-arrow" src="./assets/menu-arrow.svg">
                     </div>
                     <?= $headerMenuLine ?>
                     <div class="menu-option">
                         <a>CUSTOMIZE</a>
-                        <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                        <img class="menu-arrow" src="./assets/menu-arrow.svg">
                     </div>
                     <?= $headerMenuLine ?>
                     <div class="menu-option">
                         <a>TECHNOLOGY</a>
-                        <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                        <img class="menu-arrow" src="./assets/menu-arrow.svg">
                     </div>
                     <?= $headerMenuLine ?>
                     <div class="menu-option">
                         <a>ABOUT KINFORMA</a>
-                        <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                        <img class="menu-arrow" src="./assets/menu-arrow.svg">
                     </div>
                     <?= $headerMenuLine ?>
                     <div class="menu-option">
                         <a>COMMUNITY</a>
-                        <img class="menu-arrow" src="/assets/menu-arrow.svg">
+                        <img class="menu-arrow" src="./assets/menu-arrow.svg">
                     </div>
                     <?= $headerMenuLine ?>
                 </div>
             </div>
             <div class="menu-img-container">
-                <img class="menu-img" src="/assets/menu-background.png">
+                <img class="menu-img" src="./assets/menu-background.png">
             </div>
             <div class="menu-footer">
                 <?= $headerFooterLine ?>
