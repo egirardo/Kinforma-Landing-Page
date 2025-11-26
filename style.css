@@ -188,7 +188,7 @@ header {
 	display: none;
 }
 .header-menu {
-	height: 88.175vh;
+	height: 86.5vh;
 	width: 100%;
 	background-color: var(--background);
 	position: absolute;
@@ -213,7 +213,7 @@ pointer-events: none;
 	display: flex;
 	align-items: center;
 	width: 85vw;
-	margin: 3rem;
+	margin: 2rem;
 
 }
 
@@ -262,7 +262,7 @@ input#searchInput::placeholder {
 	align-self: center;
 	display: flex;
 	flex-direction: column;
-	margin-top: 3rem;
+	margin-top: 2rem;
 }
 
 .menu-option {
@@ -282,6 +282,7 @@ input#searchInput::placeholder {
 	width: 100%;
 	position: absolute; 
 	bottom: 0;
+	background-color: var(--background);
 }
 
 .menu-footer-content {

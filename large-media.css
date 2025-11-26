@@ -162,7 +162,7 @@ pointer-events: none;
 	display: flex;
 	align-items: center;
 	width: 85vw;
-	margin: 3rem;
+	margin: 2rem;
 	z-index: 2;
 }
 
@@ -241,6 +241,7 @@ input#searchInput::placeholder {
 }
 
 .menu-footer {
+	margin-top: 5px;
 	width: 100%;
 	position: relative; 
 	bottom: 0;
