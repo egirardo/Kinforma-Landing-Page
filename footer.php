@@ -1,4 +1,3 @@
-</body>
 <footer>
 
     <div class="footer-container">
@@ -39,10 +38,15 @@
                 <div class="selector">
                     <h3>SHOP IN:</h3>
                     <p>SWEDEN</p>
+                    <button class="toggle-btn" id="menu">+</button>
                 </div>
                 <div class="selector">
                     <h3>LANGUAGE:</h3>
-                    <p>ENGLISH</p>
+                    <div class="lang-options">
+                        <p>ENGLISH</p>
+                        <p class="swe">SWEDISH</p>
+                    </div>
+                    <button class="toggle-btn" id="lang">+</button>
                 </div>
             </div>
         </div>
@@ -57,7 +61,9 @@
         </div>
     </div>
 
-
 </footer>
+
+<script src="script.js"></script>
+</body>
 
 </html>
