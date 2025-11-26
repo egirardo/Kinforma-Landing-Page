@@ -53,7 +53,7 @@ require_once __DIR__ . '/header.php';
                         <button class="toggle-btn">+</button>
                     </div>
                     <div class="color-picker">
-                        <div class="color-box stone" id="jacket-stone" data-img="./products/1/Jacka_Blå/Jacka_Bla_Vitt.png"></div>
+                        <div class="color-box stone active" id="jacket-stone" data-img="./products/1/Jacka_Blå/Jacka_Bla_Vitt.png"></div>
                         <div class="color-box sand" id="jacket-sand" data-img="./products/1/Jacka_Beige/Jacka_Biege_Kritvit.png"></div>
                         <div class="color-box moss" id="jacket-moss" data-img="./products/1/Jacka_Brungrå/Jacka_Brun_Vitt.png"></div>
                     </div>
@@ -64,14 +64,14 @@ require_once __DIR__ . '/header.php';
 
                 <div class="product-container" data-product="2">
                     <div class="product-img-container">
-                        <img class="product" src="./products/2/Solglasögon_Sand_Vit_fram.png">
+                        <img class="product" src="./products/2/Solglasögon_Vit_sida.png">
                     </div>
                     <div class="expand-product">
                         <h4 class="product-name">OPTICAL FRAME</h4>
                         <button class="toggle-btn">+</button>
                     </div>
                     <div class="color-picker">
-                        <div class="color-box sand" id="glasses-sand" data-img="./products/2/Solglasögon_Moss_Vit_fram.png"></div>
+                        <div class="color-box sand active" id="glasses-sand" data-img="./products/2/Solglasögon_Moss_Vit_fram.png"></div>
                         <div class="color-box moss" id="glasses-moss" data-img="./products/2/Solglasögon_Sand_Vit_fram.png"></div>
                     </div>
                     <div class="description">
@@ -88,7 +88,7 @@ require_once __DIR__ . '/header.php';
                         <button class="toggle-btn">+</button>
                     </div>
                     <div class="color-picker">
-                        <div class="color-box sand" id="bag-sand" data-img="./products/3/Väska_Vit_sand.png"></div>
+                        <div class="color-box sand active" id="bag-sand" data-img="./products/3/Väska_Vit_sand.png"></div>
                         <div class="color-box moss" id="bag-moss" data-img="./products/3/Väska_Vit_moss.png"></div>
                     </div>
                     <div class="description">
@@ -105,7 +105,7 @@ require_once __DIR__ . '/header.php';
                         <button class="toggle-btn">+</button>
                     </div>
                     <div class="color-picker">
-                        <div class="color-box silver" id="ring-silver" data-img="./products/4/Ring_Guld_Silver_Vit.png"></div>
+                        <div class="color-box silver active" id="ring-silver" data-img="./products/4/Ring_Guld_Silver_Vit.png"></div>
                         <div class="color-box guld" id="ring-guld" data-img="./products/4/Ring_Silver_Guld_Vit.png"></div>
                     </div>
                     <div class="description">
