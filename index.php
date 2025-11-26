@@ -71,8 +71,8 @@ require_once __DIR__ . '/header.php';
                         <button class="toggle-btn">+</button>
                     </div>
                     <div class="color-picker">
-                        <div class="color-box sand" id="glasses-sand" data-img="./products/2/Solglasögon_Sand_Vit_fram.png"></div>
-                        <div class="color-box moss" id="glasses-moss" data-img="./products/2/Solglasögon_Moss_Vit_fram.png"></div>
+                        <div class="color-box sand" id="glasses-sand" data-img="./products/2/Solglasögon_Moss_Vit_fram.png"></div>
+                        <div class="color-box moss" id="glasses-moss" data-img="./products/2/Solglasögon_Sand_Vit_fram.png"></div>
                     </div>
                     <div class="description">
                         <p class="prod-description">Lightweight titanium eyewear with UV protection.</p>
