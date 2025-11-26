@@ -276,12 +276,19 @@ main{
     margin: 0;
 	padding: 0;
 }
-
 .hero-text{
 	position: absolute;
 	left: 7.81rem;
 	bottom: 8.5rem;
 	width: 24.6rem;
+}
+
+/* Ensure hero image is aligned to the top of the container on desktop */
+.hero-img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: top center; /* crop from the top edge instead of centering */
 }
 
 .hero-text h4 {
