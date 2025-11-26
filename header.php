@@ -28,7 +28,7 @@ require __DIR__ . "/assets.php";
         <nav class="header-wrapper">
             <div class="logo-container">
                 <img class="logo" src="./assets/logo.svg">
-                <h3 class="logo-typo">kinforma</h3>
+                <h3 class="logo-typo">KINFORMA</h3>
             </div>
             <div class="nav-container">
                 <img class="cart" src="./assets/shopping cart.svg">

@@ -188,15 +188,16 @@ header {
 	display: none;
 }
 .header-menu {
-	height: 86.5vh;
+	height: calc(100vh - 100px);
 	width: 100%;
 	background-color: var(--background);
 	position: absolute;
+	position: relative;
 	justify-self: center;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	top: 6.25rem;
+	top: 10px;
 }
 
 body.menu-open {
