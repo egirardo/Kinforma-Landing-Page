@@ -6,7 +6,20 @@ document.getElementById("closePopup").onclick = function() {
 };
 
 setTimeout(function() {
+    function showPopup(){
     document.getElementById("popupOverlay").style.display = "flex";
+    }
+    if(!document.body.classList.contains('menu-open')){
+        showPopup();
+    } else {
+        const observer = new MutationObserver(() => {
+            if (!document.body.classList.contains('menu-open')) {
+                showPopup();
+                observer.disconnect(); // Stop observing
+            }
+        });
+        observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    }
 }, 5000); // Shows popup after 5 seconds
 
 window.onclick = function(event) {
