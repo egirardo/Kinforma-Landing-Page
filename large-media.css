@@ -454,7 +454,7 @@ main{
 	flex-direction: column;
 	justify-content: center;
 	gap: 1rem;
-    padding-left: 3rem;
+    padding-left: 10%;
 }
 h5{
 	font-size: 1rem;
@@ -667,11 +667,13 @@ input#email::placeholder {
 		gap: 2rem;
 		overflow: visible;
 		justify-content: space-between;
+		height: auto;
+		padding-bottom: 2rem;
 	}
 
 	.product-container{
 		width: 22%;
-    	margin: 1rem 0 100px 0;
+    	margin: 1rem 0 1rem 0;
 	}
 
 	.product-img-container{
