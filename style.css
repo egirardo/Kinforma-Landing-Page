@@ -605,7 +605,9 @@ input#searchInput::placeholder {
 .tech-img-container{
     height: 345px;
     width: 345px;
-    object-fit: cover;
+}
+#tech-vid {
+    object-fit: fill;
 }
 .motion-img-container{
     width: 21.6rem;

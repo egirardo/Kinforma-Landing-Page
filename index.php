@@ -120,11 +120,13 @@ require_once __DIR__ . '/header.php';
         <section class="tech">
             <h4 class="small-screen">EXPLORE THE LAYERS BEHIND THE INNOVATION.</h4>
             <div class="tech-flex">
-                <div class="tech-img-container">
-                    <video class="tech-img" id="tech-vid" autoplay muted loop>
-                        <source src="./products/tech/tech-turntable.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                <div class="flex-container">
+                    <div class="tech-img-container">
+                        <video class="tech-img" id="tech-vid" autoplay muted loop>
+                            <source src="./products/tech/tech-turntable.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
                 </div>
                 <div class="tech-info-wrapper">
                     <h4 class="big-screen">EXPLORE THE LAYERS BEHIND THE INNOVATION.</h4>
