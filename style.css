@@ -272,6 +272,14 @@ input#searchInput::placeholder {
 	align-self: left;
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#menu {
+	font-size: 1.5rem;
+	font-weight: 200;
 }
 
 .menu-arrow {
@@ -297,6 +305,9 @@ input#searchInput::placeholder {
 	display: none;
 }
 
+.swe {
+	opacity:0;
+}
 
 /* Main */
 
@@ -735,6 +746,12 @@ input#email::placeholder {
 .selector h3, p {
 	margin: 0;
 	font-size: .75rem;
+}
+
+.lang-options {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1.25rem;
 }
 
 .footer-bottom-container {
