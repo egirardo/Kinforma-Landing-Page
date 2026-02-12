@@ -6,7 +6,20 @@ document.getElementById("closePopup").onclick = function() {
 };
 
 setTimeout(function() {
+    function showPopup(){
     document.getElementById("popupOverlay").style.display = "flex";
+    }
+    if(!document.body.classList.contains('menu-open')){
+        showPopup();
+    } else {
+        const observer = new MutationObserver(() => {
+            if (!document.body.classList.contains('menu-open')) {
+                showPopup();
+                observer.disconnect(); // Stop observing
+            }
+        });
+        observer.observe(document.body, { attributes: true, attributeFilter: ['class'] });
+    }
 }, 5000); // Shows popup after 5 seconds
 
 window.onclick = function(event) {
@@ -15,10 +28,7 @@ window.onclick = function(event) {
     }
 }; //Closes popup if you click outside
 
-if (!sessionStorage.getItem("popupShown")) {
-    document.getElementById("popupOverlay").style.display = "block";
-    sessionStorage.setItem("popupShown", "true");
-}; //Only shows the popup once per session
+
 
 
 //Tech-video playbackspeed
@@ -86,7 +96,7 @@ products.forEach(product => {
     });
 });
 
-        //Descritpion expander
+        //Description expander
         header.addEventListener('click', () => {
         // Toggle the open class
         description.classList.toggle('open');
@@ -97,6 +107,22 @@ products.forEach(product => {
     });
 });
 
+//Language expander in footer
+const secondLang = document.querySelector(".swe");
+const langBtn = document.querySelector("#lang");
+
+console.log(secondLang);
+console.log(langBtn);
+
+
+langBtn.addEventListener('click', function(event){
+
+    secondLang.classList.toggle('open');
+    langBtn.textContent = secondLang.classList.contains('open') ? "−" : "+";
+    secondLang.style.opacity = secondLang.classList.contains('open') ? 1 : 0;
+});
+
+//Description expander
 
 
 

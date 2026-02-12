@@ -1,27 +1,26 @@
-</body>
 <footer>
 
     <div class="footer-container">
         <div class="footer-menu-container">
             <div class="footer-menu-item">
                 <h5>CONTACT</h5>
-                <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
+                <img class="plus-icon" src="./assets/mage_plus.svg" alt="plus sign">
             </div>
             <div class="footer-menu-item">
                 <h5>SUPPORT</h5>
-                <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
+                <img class="plus-icon" src="./assets/mage_plus.svg" alt="plus sign">
             </div>
             <div class="footer-menu-item">
                 <h5>COMPANY</h5>
-                <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
+                <img class="plus-icon" src="./assets/mage_plus.svg" alt="plus sign">
             </div>
             <div class="footer-menu-item">
                 <h5>FOLLOW US</h5>
-                <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
+                <img class="plus-icon" src="./assets/mage_plus.svg" alt="plus sign">
             </div>
             <div class="footer-menu-item">
                 <h5>LEGAL</h5>
-                <img class="plus-icon" src="/assets/mage_plus.svg" alt="plus sign">
+                <img class="plus-icon" src="./assets/mage_plus.svg" alt="plus sign">
             </div>
         </div>
         <div class="newsletter-lang">
@@ -39,10 +38,15 @@
                 <div class="selector">
                     <h3>SHOP IN:</h3>
                     <p>SWEDEN</p>
+                    <button class="toggle-btn" id="menu">+</button>
                 </div>
                 <div class="selector">
                     <h3>LANGUAGE:</h3>
-                    <p>ENGLISH</p>
+                    <div class="lang-options">
+                        <p>ENGLISH</p>
+                        <p class="swe">SWEDISH</p>
+                    </div>
+                    <button class="toggle-btn" id="lang">+</button>
                 </div>
             </div>
         </div>
@@ -57,7 +61,9 @@
         </div>
     </div>
 
-
 </footer>
+
+<script src="script.js"></script>
+</body>
 
 </html>
